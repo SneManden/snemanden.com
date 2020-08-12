@@ -5,6 +5,8 @@
 <script>
 	import { stores } from "@sapper/app";
 
+	import Nav from "../components/Nav.svelte";
+
 	// You may not want to use `segment`, but it is passed for the time being and will
 	// create a warning if not expected: https://github.com/sveltejs/sapper-template/issues/210
 	// https://github.com/sveltejs/sapper/issues/824
@@ -24,4 +26,8 @@
 	</title>
 </svelte:head>
 
-<slot />
+<Nav />
+
+<main>
+	<slot />
+</main>
