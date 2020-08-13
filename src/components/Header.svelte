@@ -1,0 +1,87 @@
+<script>
+    let y: number = 0;
+
+    export let navHeight = 50;
+    export let headerHeight = 300;
+
+    function updateHeight(y: number): string {
+        // const pos = Math.min(0, -headerHeight - navHeight + y);
+
+        const pos = Math.max(0, headerHeight - navHeight - y);
+
+        return `${pos}px`;
+    }
+  
+    $: navPos = updateHeight(y);
+</script>
+  
+<style>
+    header {
+        position: relative;
+    }
+    
+    nav {
+        top: 0;
+        width: 100%;
+        position: fixed;
+        overflow: hidden;
+        background: #fff;
+        line-height: 50px;
+        border-bottom: 1px solid rgba(0,0,0,0.125);
+    }
+
+    nav .container {
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    nav ul {
+        margin: 0;
+        display: flex;
+        list-style: none;
+        margin-left: auto;
+        justify-content: space-between;
+    }
+
+    nav ul li a {
+        color: #555;
+        padding: 0 10px;
+        text-decoration: none;
+        transition: color 200ms ease-in-out;
+    }
+
+    nav ul li a:hover,
+    nav ul li a:focus {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    nav h1 {
+        margin: 0;
+        font-size: 2em;
+    }
+
+    nav h1 a {
+        color: inherit;
+        text-decoration: none;
+    }
+</style>
+  
+<svelte:window bind:scrollY={y} />
+
+<header style="height:{headerHeight}px;">
+</header>
+  
+<nav style="transform:translateY({navPos}); height:{navHeight}px;">
+    <div class="container">
+        <h1><a href="/">snemanden.com</a></h1>
+        <ul>
+            <li><a href="/blog">blog</a></li>
+            <li><a href="/om">om</a></li>
+            <li><a href="/arkiv">arkiv</a></li>
+        </ul>
+    </div>
+</nav>

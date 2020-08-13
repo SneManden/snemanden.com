@@ -1,5 +1,10 @@
 <script>
 	import ExampleComponent from "../components/ExampleComponent.svelte";
+
+	let lines: number[] = [];
+	for (let i = 1; i < 256; i++) {
+		lines.push(i);
+	}
 </script>
 
 <style>
@@ -12,8 +17,12 @@
 	}
 </style>
 
-<div class="centerer">
-	<ExampleComponent
-		title="🌐 Sapper with TypeScript project base"
-		paragraph="This is an example route and component to make sure everything's working." />
-</div>
+<article>
+	<h1>Velkommen til snemanden.com</h1>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit.
+		Natus fugit perferendis perspiciatis! Illum consequuntur quod quibusdam,
+		aliquid maiores vel commodi minima sint voluptatum aperiam ducimus,
+		est fuga natus voluptates distinctio.
+	</p>
+</article>
