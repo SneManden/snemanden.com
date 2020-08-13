@@ -39,15 +39,14 @@
     }
 
     nav ul {
-        margin: 0;
+        margin: 0 -10px 0 auto;
         display: flex;
         list-style: none;
-        margin-left: auto;
         justify-content: space-between;
     }
 
     nav ul li a {
-        color: #555;
+        color: #333;
         padding: 0 10px;
         text-decoration: none;
         transition: color 200ms ease-in-out;

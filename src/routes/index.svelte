@@ -1,21 +1,6 @@
 <script>
 	import ExampleComponent from "../components/ExampleComponent.svelte";
-
-	let lines: number[] = [];
-	for (let i = 1; i < 256; i++) {
-		lines.push(i);
-	}
 </script>
-
-<style>
-	.centerer {
-		flex: 1 1 0%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-</style>
 
 <article>
 	<h1>Velkommen til snemanden.com</h1>
