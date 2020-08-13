@@ -6,6 +6,7 @@
 	import { stores } from "@sapper/app";
 
 	import Header from "../components/Header.svelte";
+	import Typer from "../components/Typer.svelte";
 
 	// You may not want to use `segment`, but it is passed for the time being and will
 	// create a warning if not expected: https://github.com/sveltejs/sapper-template/issues/210
@@ -27,29 +28,30 @@
 </svelte:head>
 
 <style>
-	.header-content {
-		height: 100%;
-		background-color: lightblue;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
 	main {
 		flex: 1 1 auto;
 		background: rgba(0,0,0,0.125);
 	}
 
 	.container {
+		width: 800px;
 		margin: 0 auto;
 		padding: 20px;
-		max-width: 800px;
-		background: #fff;
+		min-width: 500px;
+		max-width: 100%;
 		box-sizing: border-box;
+	}
+
+	main .container {
+		background: #fff;
 	}
 </style>
 
-<Header/>
+<Header>
+	<div class="container">
+		<Typer/>
+	</div>
+</Header>
 
 <main>
 	<div class="container">

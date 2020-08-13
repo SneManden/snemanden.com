@@ -17,7 +17,10 @@
   
 <style>
     header {
+        display: flex;
         position: relative;
+        align-items: center;
+        justify-content: start;
     }
     
     nav {
@@ -35,6 +38,8 @@
         margin: 0 auto;
         display: flex;
         padding: 0 20px;
+		min-width: 500px;
+		max-width: 100%;
         box-sizing: border-box;
     }
 
@@ -72,6 +77,7 @@
 <svelte:window bind:scrollY={y} />
 
 <header style="height:{headerHeight}px;">
+    <slot/>
 </header>
   
 <nav style="transform:translateY({navPos}); height:{navHeight}px;">
