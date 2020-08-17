@@ -5,12 +5,22 @@
     export let headerHeight = 300;
 
     function updateHeight(y: number): string {
-        // const pos = Math.min(0, -headerHeight - navHeight + y);
-
         const pos = Math.max(0, headerHeight - navHeight - y);
-
         return `${pos}px`;
     }
+
+    let index = 0;
+    let images = [
+        "img/header/oak.jpg",
+        "img/header/run.jpg"
+    ].sort((a, b) => Math.random() < 0.5 ? 1 : -1);;
+    $: image = images[index % images.length];
+
+    function updateImage() {
+        index++;
+    }
+
+    setInterval(() => updateImage(), 15_000);
   
     $: navPos = updateHeight(y);
 </script>
@@ -23,6 +33,8 @@
         padding-top: 10px;
         align-items: start;
         justify-content: start;
+        background-size: cover;
+        background-position: center;
     }
     
     nav {
@@ -78,7 +90,7 @@
   
 <svelte:window bind:scrollY={y} />
 
-<header style="height:{headerHeight}px;">
+<header style="height:{headerHeight}px;background-image:url({image})">
     <slot/>
 </header>
   

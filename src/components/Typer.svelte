@@ -8,8 +8,9 @@
         "Høns er liv & lykke.",
         "At høvle er at meditere.",
         "Lækker mad og godt selskab.",
-        "Løb er et rusmiddel."
-    ];
+        "Løb er et rusmiddel.",
+        "Kærlighed er livets bindemiddel."
+    ].sort((a, b) => Math.random() < 0.5 ? 1 : -1);
 
     let index = 0;
     let delay = 2_000;
