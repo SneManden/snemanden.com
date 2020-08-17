@@ -45,6 +45,10 @@
 	main .container {
 		background: #fff;
 	}
+
+	:global(header) .container {
+        background: rgba(0,0,0,0.75);
+	}
 </style>
 
 <Header>

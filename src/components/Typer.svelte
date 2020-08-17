@@ -1,38 +1,78 @@
 <script>
     // Look into these: https://css-tricks.com/snippets/css/typewriter-effect/
+    // Also this: https://www.codesdope.com/blog/article/12-creative-css-and-javascript-text-typing-animati/
     
-    export let words = ["programmering", "træer", "mad", "høns", "løb"];
+    export let phrases = [
+        "Fagales Fagaceae Quercus Robur.",
+        "Java is to JavaScript what car is to Carpet.",
+        "Høns er liv & lykke.",
+        "At høvle er at meditere.",
+        "Lækker mad og godt selskab.",
+        "Løb er et rusmiddel."
+    ];
 
     let index = 0;
+    let delay = 2_000;
+    let text = "";
+    let isDeleting = false;
+    let pulsing = true;
 
-    // setInterval(() => {
-    //     index = (index + 1) % words.length;
-    // }, 2_500);
+    let typeSpeed = 90;
+    let typeVariation = 60;
+    
+    $: phrase = phrases[index];
 
-    $: word = words[index];
+    const tick = () => {
+        text = phrase.substring(0, text.length + (isDeleting ? -1 : 1));
+
+        let delta = Math.max(0, typeSpeed + typeVariation * (-0.5 + Math.random()));
+
+        if (isDeleting) {
+            delta /= 2;
+        }
+
+        if (!isDeleting && text === phrase) {
+            delta = delay;
+            isDeleting = true;
+        } else if (isDeleting && text === "") {
+            isDeleting = false;
+            index = (index + 1) % phrases.length;
+            delta = delay;
+        }
+
+        pulsing = delta > typeSpeed + 0.5 * typeVariation;
+
+        setTimeout(() => tick(), delta);
+    };
+
+    setTimeout(() => tick(), delay);
 </script>
 
 <style>
-    @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap');
     .typewriter {
-        font-family: 'Anonymous Pro', monospace;  
-        text-align: center;
-        margin: 0 auto;
-        width: 225px;
-        line-height: 40px;
-        font-size: 180%;
-        overflow: hidden;
-        white-space: nowrap;
-        animation: typing 3s steps(13) 1s 1 normal both;
+        color: #eee;
+        font-size: 26px;
+        font-weight: 600;
+        font-family: 'Inconsolata', monospace;
+        line-height: 32px;
     }
-
-    @keyframes typing {
-        from { width: 0; }
-        to { width: 225px; }
+    .cursor {
+        width: 12px;
+        height: 26px;
+        display: inline-block;
+        background: #358724;
+        vertical-align: text-bottom;
+    }
+    .cursor.pulsing {
+        animation: 1s blink step-end infinite;
+    }
+    @keyframes blink {
+        from, to { background: transparent; }
+        50% { background: #358724; }
     }
 </style>
 
 <div class="typewriter">
-    {word}
+    { text }<span class="cursor" class:pulsing={pulsing}></span>
 </div>

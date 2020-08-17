@@ -19,7 +19,9 @@
     header {
         display: flex;
         position: relative;
-        align-items: center;
+        box-sizing: border-box;
+        padding-top: 10px;
+        align-items: start;
         justify-content: start;
     }
     
