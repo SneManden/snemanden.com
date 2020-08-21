@@ -11,9 +11,13 @@ body {
 }
 
 #sapper {
-    display: flex;
-    flex-direction: column;
     flex: 1 1 0%;
+    display: flex;
+    /* padding-left: calc(100vw - 100%); */
+    flex-direction: column;
+
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
 }
 
 p {

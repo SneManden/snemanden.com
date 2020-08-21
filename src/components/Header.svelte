@@ -13,7 +13,7 @@
     let images = [
         "img/header/oak.jpg",
         "img/header/run.jpg"
-    ].sort((a, b) => Math.random() < 0.5 ? 1 : -1);;
+    ].sort((_a, _b) => Math.random() < 0.5 ? 1 : -1);;
     $: image = images[index % images.length];
 
     function updateImage() {
@@ -45,6 +45,7 @@
         background: #fff;
         line-height: 50px;
         border-bottom: 1px solid rgba(0,0,0,0.125);
+        padding-right: calc(100vw - 100%);
     }
 
     nav .container {
