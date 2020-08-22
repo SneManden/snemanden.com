@@ -4,8 +4,10 @@
     export let navHeight = 50;
     export let headerHeight = 300;
 
-    function updateHeight(y: number): string {
-        const pos = Math.max(0, headerHeight - navHeight - y);
+    function updateHeight(y?: number): string {
+        const pos = y !== undefined && Number.isSafeInteger(y)
+            ? Math.max(0, headerHeight - navHeight - y)
+            : 0;
         return `${pos}px`;
     }
 
@@ -24,6 +26,23 @@
   
     $: navPos = updateHeight(y);
 </script>
+  
+<svelte:window bind:scrollY={y} />
+
+<header style="height:{headerHeight}px;background-image:url({image})">
+    <slot/>
+</header>
+  
+<nav style="transform:translateY({navPos}); height:{navHeight}px;">
+    <div class="container">
+        <h1><a href="/">snemanden.com</a></h1>
+        <ul>
+            <li><a rel="prefetch" href="/blog">blog</a></li>
+            <li><a href="/om">om</a></li>
+            <li><a rel="prefetch" href="/arkiv">arkiv</a></li>
+        </ul>
+    </div>
+</nav>
   
 <style>
     header {
@@ -96,20 +115,3 @@
         text-decoration: none;
     }
 </style>
-  
-<svelte:window bind:scrollY={y} />
-
-<header style="height:{headerHeight}px;background-image:url({image})">
-    <slot/>
-</header>
-  
-<nav style="transform:translateY({navPos}); height:{navHeight}px;">
-    <div class="container">
-        <h1><a href="/">snemanden.com</a></h1>
-        <ul>
-            <li><a rel="prefetch" href="/blog">blog</a></li>
-            <li><a href="/om">om</a></li>
-            <li><a rel="prefetch" href="/arkiv">arkiv</a></li>
-        </ul>
-    </div>
-</nav>

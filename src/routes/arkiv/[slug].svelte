@@ -13,6 +13,7 @@
 
 <script>
     import type { IPost } from "../../models/post-models";
+    import Me from "../../components/Me.svelte";
 
     export let post: IPost;
 </script>
@@ -29,6 +30,9 @@
     <section>
         { @html post.html }
     </section>
+    <footer>
+        <Me/>
+    </footer>
 </article>
 
 <style>
