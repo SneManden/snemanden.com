@@ -3,7 +3,7 @@
     // Also this: https://www.codesdope.com/blog/article/12-creative-css-and-javascript-text-typing-animati/
     
     export let phrases = [
-        "Fagales Fagaceae Quercus Robur.",
+        "Fagales Fagaceae Quercus Robur 🌳.",
         "Java is to JavaScript what car is to Carpet.",
         "Høns er liv & lykke.",
         "At høvle er at meditere.",
