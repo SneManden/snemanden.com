@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 import marked from "marked";
-// import type { IPost } from "../../models/post";
 
 type Metadata = { [key: string]: string };
 
@@ -53,9 +52,8 @@ const extractExcerpt = (html: string): string => {
 export const getPosts = () => {
     return fs
         .readdirSync("content/blog")
-        .filter(file => path.extname(file) !== ".md")
+        .filter(file => path.extname(file) === ".md")
         .map<IPost>(file => {
-            console.log("getPosts().map(file:", file, ")");
             const match = /^(\d+-\d+-\d+)-(.+)\.md$/.exec(file);
 			if (!match) {
                 throw new Error(`Invalid filename "${file}"`);
