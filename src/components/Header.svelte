@@ -44,8 +44,15 @@
         overflow: hidden;
         background: #fff;
         line-height: 50px;
-        border-bottom: 1px solid rgba(0,0,0,0.125);
+        border-top: 2px solid rgba(0,0,0,0.125);
+        border-bottom: 2px solid rgba(0,0,0,0.525);
         padding-right: calc(100vw - 100%);
+
+        background: #59c14b;
+        background: -moz-linear-gradient(45deg,  #59c14b 0%, #59c14b 50%, #358724 50%, #358724 100%);
+        background: -webkit-linear-gradient(45deg,  #59c14b 0%,#59c14b 50%,#358724 50%,#358724 100%);
+        background: linear-gradient(45deg,  #59c14b 0%,#59c14b 50%,#358724 50%,#358724 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59c14b', endColorstr='#358724',GradientType=1 );
     }
 
     nav .container {
@@ -66,10 +73,11 @@
     }
 
     nav ul li a {
-        color: #333;
+        color: #222;
         padding: 0 10px;
-        text-decoration: none;
+        font-size: 16px;
         transition: color 200ms ease-in-out;
+        text-decoration: none;
     }
 
     nav ul li a:hover,
@@ -80,7 +88,7 @@
 
     nav h1 {
         margin: 0;
-        font-size: 2em;
+        font-size: 24px;
     }
 
     nav h1 a {

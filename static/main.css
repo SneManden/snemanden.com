@@ -25,14 +25,14 @@ p {
 }
 
 a {
-    color: #c2372d;
+    color: #358724;
     text-decoration: underline;
 }
 a:hover,
 a:focus,
 a:visited:hover,
 a:visited:focus {
-    color: #7d221b;
+    color: #59c14b;
 }
 
 

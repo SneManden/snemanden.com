@@ -49,6 +49,10 @@
     setTimeout(() => tick(), delay);
 </script>
 
+<div class="typewriter">
+    { text }<span class="cursor" class:pulsing={pulsing}></span>
+</div>
+
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap');
     .typewriter {
@@ -72,8 +76,13 @@
         from, to { background: transparent; }
         50% { background: #358724; }
     }
+    @media (max-width: 800px) {
+        .typewriter {
+            font-size: 20px;
+            line-height: 28px;
+        }
+        .cursor {
+            height: 20px;
+        }
+    }
 </style>
-
-<div class="typewriter">
-    { text }<span class="cursor" class:pulsing={pulsing}></span>
-</div>

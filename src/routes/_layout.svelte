@@ -27,6 +27,18 @@
 	</title>
 </svelte:head>
 
+<Header>
+	<div class="container">
+		<Typer/>
+	</div>
+</Header>
+
+<main>
+	<div class="container">
+		<slot />
+	</div>
+</main>
+
 <style>
 	main {
 		flex: 1 1 auto;
@@ -43,22 +55,21 @@
 	}
 
 	main .container {
+		border: 2px solid rgba(0,0,0,.5);
 		background: #fff;
+		margin-bottom: calc((100vw - 800px) / 2);
 	}
 
 	:global(header) .container {
         background: rgba(0,0,0,0.75);
 	}
+
+	@media (max-width: 800px) {
+		main .container {
+			margin-bottom: 0;
+		}
+		:global(header) .container {
+			padding: 10px;
+		}
+	}
 </style>
-
-<Header>
-	<div class="container">
-		<Typer/>
-	</div>
-</Header>
-
-<main>
-	<div class="container">
-		<slot />
-	</div>
-</main>
