@@ -1,5 +1,6 @@
 import type { Request as ExpressRequest, Response as ExpressResponse } from "express";
 import { getArchivedPosts } from "./_posts";
+import { jsonHeaderWithCacheControl } from "../../utility/request-headers";
 
 type PostDict = {
     [slug: string]: string;
@@ -17,7 +18,7 @@ export const get = async (req: ExpressRequest, res: ExpressResponse): Promise<vo
 
     const status = post !== undefined ? 200 : 404;
 
-    res.writeHead(status, { "Content-Type": "application/json" });
+    res.writeHead(status, jsonHeaderWithCacheControl());
     res.end(status === 200
         ? post
         : JSON.stringify({ message: "Not found" })
