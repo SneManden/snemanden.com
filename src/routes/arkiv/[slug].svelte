@@ -17,13 +17,6 @@
     export let post: IPost;
 </script>
 
-<style>
-    article header h1 {
-        margin: 0 0 16px 0;
-        font-size: 24px;
-    }
-</style>
-
 <svelte:head>
     <title>{ post.title }</title>
 	<meta name="Description" content={post.description}>
@@ -33,5 +26,10 @@
     <header>
         <h1>{ post.title }</h1>
     </header>
-    { @html post.html }
+    <section>
+        { @html post.html }
+    </section>
 </article>
+
+<style>
+</style>

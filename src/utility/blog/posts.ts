@@ -35,7 +35,6 @@ const extractExcerpt = (html: string): string => {
 }
 
 export function parseFile(directory: string, filename: string): IPost {
-    console.log("parseFile(dir:", directory, ", file:", filename, ")");
     const match = /^(\d+-\d+-\d+)-(.+)\.md$/.exec(filename);
     if (!match) {
         throw new Error(`Invalid filename "${filename}"`);
