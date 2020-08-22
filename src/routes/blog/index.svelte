@@ -1,9 +1,8 @@
 <script context="module">
-    export async function preload(this: any, ...args: any) {
+    export async function preload(this: any, ...args: any): Promise<{ posts: PostListing[] }> {
         const response = await this.fetch("blog.json");
-        const data = await response.json();
-        console.log("[", new Date().toISOString(), "] preload content:", data);
-        return { posts: data };
+        const posts = await response.json();
+        return { posts };
     }
 </script>
 
@@ -12,6 +11,30 @@
     
     export let posts: PostListing[];
 </script>
+
+<svelte:head>
+    <title>Blog</title>
+</svelte:head>
+
+<ul class="posts">
+    {#each posts as post}
+    <li>
+        <h2 class="title">
+            <a rel="prefetch" href="blog/{post.slug}">{ post.title }</a>
+        </h2>
+        <p class="excerpt">
+            { post.excerpt }
+        </p>
+        <div class="read-more">
+            <a rel="prefetch" href="blog/{post.slug}">Læs hele indlæget.</a>
+        </div>
+    </li>
+    {/each}
+</ul>
+
+{#if posts.length === 0}
+    <div>Ingen blogindlæg er skrevet endnu.</div>
+{/if}
 
 <style>
     .posts {
@@ -45,27 +68,3 @@
         font-size: 24px;
     }
 </style>
-
-<svelte:head>
-    <title>Blog</title>
-</svelte:head>
-
-<ul class="posts">
-    {#each posts as post}
-    <li>
-        <h2 class="title">
-            <a rel="prefetch" href="blog/{post.slug}">{ post.title }</a>
-        </h2>
-        <p class="excerpt">
-            { post.excerpt }
-        </p>
-        <div class="read-more">
-            <a rel="prefetch" href="blog/{post.slug}">Læs hele indlæget.</a>
-        </div>
-    </li>
-    {/each}
-
-    {#if posts.length === 0}
-        <div>Ingen blogindlæg er skrevet endnu.</div>
-    {/if}
-</ul>
