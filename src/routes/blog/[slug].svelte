@@ -1,7 +1,8 @@
 <script context="module">
-    export async function preload(this: any, page: any, session: unknown) {
+    export async function preload(this: any, page: any, _session: unknown) {
         const response = await this.fetch(`blog/${page.params.slug}.json`);
         const data = await response.json();
+        console.log("preload data:", data);
 
         if (response.status === 200) {
             return { post: data };
@@ -12,7 +13,7 @@
 </script>
 
 <script>
-    import type { IPost } from "./_posts";
+    import type { IPost } from "../../models/post-models";
 
     export let post: IPost;
 </script>

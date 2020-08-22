@@ -1,15 +1,16 @@
 <script context="module">
-    export async function preload(this: any, ..._: any) {
+    export async function preload(this: any, ...args: any) {
         const response = await this.fetch("blog.json");
-        const content = await response.json() as PostListing[];
-        return { posts: content };
+        const data = await response.json();
+        console.log("[", new Date().toISOString(), "] preload content:", data);
+        return { posts: data };
     }
 </script>
 
 <script>
-    import type { PostListing } from "./_posts";
+    import type { PostListing } from "../../models/post-models";
     
-    export let posts: PostListing[] = [];
+    export let posts: PostListing[];
 </script>
 
 <style>

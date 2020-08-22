@@ -99,9 +99,9 @@
     <div class="container">
         <h1><a href="/">snemanden.com</a></h1>
         <ul>
-            <li><a href="/blog">blog</a></li>
+            <li><a rel="prefetch" href="/blog">blog</a></li>
             <li><a href="/om">om</a></li>
-            <li><a href="/arkiv">arkiv</a></li>
+            <li><a rel="prefetch" href="/arkiv">arkiv</a></li>
         </ul>
     </div>
 </nav>

@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <article>
 	<h1>Velkommen til snemanden.com</h1>
 	<p>
