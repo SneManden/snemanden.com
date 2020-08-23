@@ -1,6 +1,7 @@
 import fs from "fs";
 import marked from "marked";
-import type { IPost } from "../../models/post-models";
+import type { IPost, PostListing } from "../../models/post-models";
+import { PostDate } from "../../models/post-models";
 
 type Metadata = { [key: string]: string };
 
@@ -44,8 +45,6 @@ export function parseFile(directory: string, filename: string): IPost {
     const markdown = fs.readFileSync(`${directory}/${filename}`, "utf-8");
     const { metadata, content } = extractMetadata(markdown);
 
-    metadata.pubdate = pubdate;
-
     const renderer = new marked.Renderer();
 
     const html = marked(
@@ -63,6 +62,16 @@ export function parseFile(directory: string, filename: string): IPost {
         title: metadata.title ?? "",
         author: metadata.author ?? "None",
         description: metadata.description ?? "",
-        draft: !!metadata.draft
+        draft: !!metadata.draft,
+        published: new PostDate(pubdate)
+    };
+}
+
+export function asPostListing(post: IPost): PostListing {
+    return {
+        title: post.title,
+        slug: post.slug,
+        excerpt: post.excerpt,
+        published: post.published
     };
 }

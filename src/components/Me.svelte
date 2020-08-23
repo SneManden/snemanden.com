@@ -12,7 +12,7 @@
 <div class="wrapper">
     <div class="note">
         <p>
-            Tak fordi du læste med på SneManden.com.
+            Tak fordi du læste med.
         </p>
         <p>
             Hvis du har kommentarer til indlægget,
@@ -31,29 +31,31 @@
 <style>
     .wrapper {
         width: 80%;
-        border: 2px solid rgba(0,0,0,0.5);
+        border: 2px solid #358724;
         display: flex;
         padding: 8px 20px;
+        background: #59c14b;
+        align-items: center;
         border-left: none;
         margin-left: -20px;
-
         border-top-right-radius: 128px;
         border-bottom-right-radius: 128px;
     }
 
     .me {
         flex: 0 0 auto;
-        width: 112px;
-        height: 112px;
-        border: 8px solid #fff;
-        margin: -8px -20px -8px 10px;
+        width: 100px;
+        height: 100px;
+        border: 3px solid #fff;
+        margin: 0 -11px 0 11px;
         border-radius: 50%;
+        background: #fff;
         background-size: 100%;
         background-image: url("/img/components/me/me.jpg");
     }
 
     .link-btn {
-        color: #358724;
+        color: #eee;
         margin: 0;
         cursor: pointer;
         border: none;
@@ -65,7 +67,7 @@
     }
     .link-btn:hover,
     .link-btn:focus {
-        color: #59c14b;
+        color: #fff;
     }
     
     .obfuscated {

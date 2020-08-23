@@ -35,14 +35,13 @@ a:visited:focus {
     color: #59c14b;
 }
 
-
-/* post */
-article img {
-    max-width: 100%;
+article header {
+    display: flex;
+    line-height: 1.5;
 }
 
 article header h1 {
-    margin: 0 0 16px 0;
+    margin: 0;
     font-size: 42px;
 }
 
@@ -51,40 +50,10 @@ article header h1 a {
     text-decoration: none;
 }
 
-
-/* posts list */
-.posts {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.posts article {
-    position: relative;
-    padding-bottom: 25px;
-}
-.posts article + article {
-    margin-top: 25px;
-}
-.posts article:last-child::after {
-    display: none;
-}
-.posts article::after {
-    left: 50%;
-    width: 65%;
-    bottom: 0;
-    content: "";
-    display: block;
-    position: absolute;
-    transform: translateX(-50%);
-    border-bottom: 1px solid rgba(0,0,0,0.125);
+article header .timestamp {
+    margin-left: auto;   
 }
 
-.posts article header .title {
-    margin: 0 0 16px 0;
-    font-size: 42px;
-}
-
-.posts article header .title a {
-    color: inherit;
-    text-decoration: none;
+article img {
+    max-width: 100%;
 }

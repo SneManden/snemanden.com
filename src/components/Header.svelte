@@ -1,5 +1,5 @@
 <script>
-    let y: number = 0;
+    let y: number;
 
     export let navHeight = 50;
     export let headerHeight = 300;
@@ -23,14 +23,17 @@
     }
 
     setInterval(() => updateImage(), 15_000);
-  
+
+    $: hh = y === undefined ? navHeight : headerHeight;
     $: navPos = updateHeight(y);
 </script>
   
 <svelte:window bind:scrollY={y} />
 
-<header style="height:{headerHeight}px;background-image:url({image})">
-    <slot/>
+<header style="height:{hh}px;background-image:url({image})">
+    {#if y !== undefined}
+        <slot/>
+    {/if}
 </header>
   
 <nav style="transform:translateY({navPos}); height:{navHeight}px;">
@@ -54,6 +57,8 @@
         justify-content: start;
         background-size: cover;
         background-position: center;
+
+        /* transition: height 500ms ease-in-out; */
     }
     
     nav {
@@ -62,16 +67,16 @@
         position: fixed;
         overflow: hidden;
         background: #fff;
-        line-height: 50px;
-        border-top: 2px solid rgba(0,0,0,0.125);
-        border-bottom: 2px solid rgba(0,0,0,0.525);
-        padding-right: calc(100vw - 100%);
+        box-sizing: border-box;
+        border-top: 3px solid #59c14b;
+        line-height: 44px;
+        padding-left: calc((100vw - 100%));
+        border-bottom: 3px solid #358724;
 
+        /* Cover sides with color from gradient below in .container
+           that does not span the whole width of nav */
         background: #59c14b;
-        background: -moz-linear-gradient(45deg,  #59c14b 0%, #59c14b 50%, #358724 50%, #358724 100%);
-        background: -webkit-linear-gradient(45deg,  #59c14b 0%,#59c14b 50%,#358724 50%,#358724 100%);
-        background: linear-gradient(45deg,  #59c14b 0%,#59c14b 50%,#358724 50%,#358724 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59c14b', endColorstr='#358724',GradientType=1 );
+        background: linear-gradient(90deg, #59c14b 0%, #59c14b 50%, #358724 50%, #358724 100%); 
     }
 
     nav .container {
@@ -82,6 +87,13 @@
 		min-width: 500px;
 		max-width: 100%;
         box-sizing: border-box;
+
+        /* Apply gradient here since above container changes size depending on scroolbar visibility */
+        background: #59c14b;
+        background: -moz-linear-gradient(45deg,  #59c14b 0%, #59c14b 50%, #358724 50%, #358724 100%);
+        background: -webkit-linear-gradient(45deg,  #59c14b 0%,#59c14b 50%,#358724 50%,#358724 100%);
+        background: linear-gradient(45deg,  #59c14b 0%,#59c14b 50%,#358724 50%,#358724 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59c14b', endColorstr='#358724',GradientType=1 );
     }
 
     nav ul {

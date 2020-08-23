@@ -56,6 +56,7 @@
 
 	main .container {
 		border: 2px solid rgba(0,0,0,.5);
+		border-top: none;
 		background: #fff;
 		margin-bottom: calc((100vw - 800px) / 2);
 	}

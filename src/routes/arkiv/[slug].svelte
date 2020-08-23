@@ -13,27 +13,9 @@
 
 <script>
     import type { IPost } from "../../models/post-models";
-    import Me from "../../components/Me.svelte";
+    import Post from "../../components/Post.svelte";
 
     export let post: IPost;
 </script>
 
-<svelte:head>
-    <title>{ post.title }</title>
-	<meta name="Description" content={post.description}>
-</svelte:head>
-
-<article>
-    <header>
-        <h1>{ post.title }</h1>
-    </header>
-    <section>
-        { @html post.html }
-    </section>
-    <footer>
-        <Me/>
-    </footer>
-</article>
-
-<style>
-</style>
+<Post post={post} />
