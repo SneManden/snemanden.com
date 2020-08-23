@@ -7,6 +7,7 @@
 
 	import Header from "../components/Header.svelte";
 	import Typer from "../components/Typer.svelte";
+	import Chickens from "../components/Chickens.svelte";
 
 	// You may not want to use `segment`, but it is passed for the time being and will
 	// create a warning if not expected: https://github.com/sveltejs/sapper-template/issues/210
@@ -39,6 +40,10 @@
 	</div>
 </main>
 
+<footer>
+	<Chickens />
+</footer>
+
 <style>
 	main {
 		flex: 1 1 auto;
@@ -63,6 +68,15 @@
 
 	:global(header) .container {
         background: rgba(0,0,0,0.75);
+	}
+
+	footer {
+		left: 0;
+		width: 100%;
+		bottom: 0;
+		/* z-index: -1; */
+		overflow: hidden;
+		position: absolute;
 	}
 
 	@media (max-width: 800px) {

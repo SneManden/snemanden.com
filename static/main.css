@@ -14,6 +14,7 @@ body {
 #sapper {
     flex: 1 1 0%;
     display: flex;
+    position: relative;
     overflow-x: hidden;
     margin-right: calc(-1 * (100vw - 100%));
     flex-direction: column;
