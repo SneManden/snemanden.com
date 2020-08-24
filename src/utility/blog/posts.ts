@@ -13,7 +13,7 @@ const extractMetadata = (markdown: string): { metadata: Metadata, content: strin
         const colonIndex = line.indexOf(":");
         if (colonIndex !== -1) {
             const [key, value] = [
-                line.slice(0, colonIndex),
+                line.slice(0, colonIndex).toLowerCase(),
                 line.slice(colonIndex + 1)
             ].map(x => x.trim());
             d[key] = value;
@@ -60,7 +60,7 @@ export function parseFile(directory: string, filename: string): IPost {
         excerpt,
 
         title: metadata.title ?? "",
-        author: metadata.author ?? "None",
+        author: metadata.author ?? "Casper Kehlet Roi",
         description: metadata.description ?? "",
         draft: !!metadata.draft,
         published: new PostDate(pubdate)
