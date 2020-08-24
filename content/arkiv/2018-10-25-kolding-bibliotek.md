@@ -16,8 +16,8 @@ som en isterning i det (før konsekvenserne på klimaet af den industrielle revo
 
 Kolding. Ja, jeg er bosiddende i Kolding. Jeg er ikke en ægte _Koldinger_, blot en gemen _Koldingenser_.
 En tilflytter. Så jeg er ved at lære byen at kende. Efterhånden kender jeg turen fra togstationen til
-min bopæl i Seest og tilbage ganske godt. Og de fleste af stierne i området er efterhånden trasket tynde
- - det kom lige pludseligt i slutningen af februar måned.
+min bopæl i Seest og tilbage ganske godt. Og de fleste af stierne i området er efterhånden trasket
+tynde&mdash;dét kom lige pludseligt i slutningen af februar måned.
 Vonsild, stierne bag togbanen ved Bakkeskolen, Plovfuen, "Firkanten", og området bag boldbanerne i Seest
 har jeg også set på nært hold på flere løbeture.
 Så Kolding vokser på mig; men indtil videre har den _helt_ store åbenbaring uden tvivl været (du har gættet
@@ -50,7 +50,8 @@ Jeg har på den vis fundet adkillige fine bøger til 6kr. stykket. Bl.a. Claus M
 bøger til samlingen. Én står dog ud, men hvilken det drejer sig om, og hvorfor, bliver jeg simpelthen nødt
 til at prioritere i en ny paragraf.
 
-Kan du huske _Drageløberen_? Hvis ikke, så kig her: [Drageløberen](/blog/khaled-hosseini-drageloberen) - jeg har nemlig læst
+Kan du huske _Drageløberen_? Hvis ikke, så kig her: [Drageløberen](/arkiv/khaled-hosseini-drageloberen);
+jeg har nemlig læst
 den og anmeldt den tidligere. Det viser sig så, at en af mine mange læsere, i dette tilfælde en ny læser her
 på bloggen, lader mig vide i et af mine _mange_ læserbreve at jeg da, nu jeg har læst Drageløberen, skulle
 give mig i kast med en anden bog af samme forfatter. _Meget_ betænksomt af vedkommende, stor tak til _L_.
@@ -120,7 +121,7 @@ Hvordan låner man en bog?
  - Find den ønskede bog, og tag den under armen,
  - Gå hen til en af de mange låne-standere på biblioteket (de er tydeligt skiltet),
  - Log ind: der er 2 muligheder;
-	+ Swipe dit sygesikringskort igennem kortlæseren,
+    + Swipe dit sygesikringskort igennem kortlæseren,
     + Indtast dit personnummer på nummerblokken
  - Vælg _Lån_, det første menupunkt på skærmen,
  - _Placér bogen i det markerede område lige under skærmen_,
@@ -151,7 +152,7 @@ rundt på må og få, for dernæst at ville lægge den tilbage til det næste me
 slet ikke kan huske hvor den hører til. Og det er ikke så fedt at skulle til at sætte sig ind i bibliotekets
 nummeringssystem for at finde den rette plads til bogen. Man ender nok ofte med bare at stoppe den ind et
 tilfældigt sted. Til frustration for alle, da en søgning på computeren jo ikke længere peger på bogens plads
-- og så er den jo praktisk talt forsvundet.
+&mdash; og så er den jo praktisk talt forsvundet.
 Her er den perfekte løsning:
 
 ![Venlighed på Kolding Bibliotek](/static/img/blogimages/koldingbib_venlighed.jpg)

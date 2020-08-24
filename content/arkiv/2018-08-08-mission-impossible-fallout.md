@@ -66,7 +66,7 @@ _Tom Cruise_ får:
   8/10: 
   <span class="rating rating-readonly">\*\*\*\*\*\*\*\*\_\_</span>
 
-###### Film poster taget fra Wikipedia
+## Film poster taget fra Wikipedia
 Billedet er anvendt efter _fair use_ princippet i forbindelse med denne anmeldelse:
 > This is a poster for Mission: Impossible – Fallout.
 > The poster art copyright is believed to belong to the distributor of the film,

@@ -17,7 +17,7 @@
             </header>
             <section class="excerpt">
                 <p>
-                    { post.excerpt }
+                    {@html post.excerpt }
                 </p>
             </section>
             <footer>
