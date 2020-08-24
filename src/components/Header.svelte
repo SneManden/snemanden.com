@@ -64,6 +64,7 @@
     nav {
         top: 0;
         width: 100%;
+        z-index: 100;
         position: fixed;
         overflow: hidden;
         background: #fff;
@@ -101,6 +102,10 @@
         display: flex;
         list-style: none;
         justify-content: space-between;
+    }
+
+    nav ul li {
+        line-height: inherit;
     }
 
     nav ul li a {
