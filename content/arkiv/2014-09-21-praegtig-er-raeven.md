@@ -2,7 +2,6 @@
 Title : Prægtig er ræven!
 Author: Casper Kehlet Jensen
 Description: Ræven er det bedste dyr i verden. Det ved alle.
-warning: Døde links!
 ---
 
 Det er sent på aftenen. Natten sænker sig over den dybe, tætte bøgeskov. En let
@@ -16,7 +15,7 @@ prægtige rævs sene aftensmad.
 
 <div class="card card-fox">
     <h3>Vulpes vulpes</h3>
-    <img class="card-image" src="/static/img/blogimages/vulpesvulpes.jpg" alt="Ræven" width="200px">
+    <img class="card-image" src="/img/arkiv/praegtig-er-raeven/vulpesvulpes.jpg" alt="Ræven" width="200px">
     <dl>
         <dt>Størrelse</dt>
         <dd>58-85 cm lang, 40 cm i skulderhøjde</dd>
@@ -30,7 +29,7 @@ prægtige rævs sene aftensmad.
         <dd>ingen</dd>
     </dl>
 </div>
-![Vulpes vulpes sitting (public domain)](/static/img/blogimages/vulpesVulpesSitting.jpg "Vulpes vulpes sitting (public domain)")
+![Vulpes vulpes sitting (public domain)](/img/arkiv/praegtig-er-raeven/vulpesVulpesSitting.jpg "Vulpes vulpes sitting (public domain)")
 
 
 ## Det bedste dyr i verden

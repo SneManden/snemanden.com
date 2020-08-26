@@ -2,7 +2,6 @@
 Title : Beating "Save Otto Griffis"
 Author: Casper Kehlet Jensen
 Description: Here I show how to beat my own game, Save Otto Griffis, my entry to the BaconGameJam08.
-warning: Døde links!
 ---
 
 I recently entered and submitted a game to the
@@ -26,8 +25,8 @@ so it is possible to stay in a spot where you can hit them, but they can't hit
 you.
 
 <video controls style="width:100%;">
-  <source src="/static/media/saveOttoGriffis-letsplay.ogg" type="video/ogg">
-  <source src="/static/media/saveOttoGriffis-letsplay.mp4" type="video/mp4">
+  <source src="/media/arkiv/beating-save-otto-griffis/saveOttoGriffis-letsplay.ogg" type="video/ogg">
+  <source src="/media/arkiv/beating-save-otto-griffis/saveOttoGriffis-letsplay.mp4" type="video/mp4">
   Your browser does not support the <code>video</code> element.
 </video>
 
