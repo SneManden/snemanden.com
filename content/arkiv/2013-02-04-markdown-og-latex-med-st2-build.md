@@ -1,6 +1,7 @@
 ---
 Title : Markdown og LaTeX med ST2-build
 Author: Casper Kehlet Jensen
+warning: Døde links!
 ---
 
 Jeg har gået og døjet med hvordan man bedst laver noter til undervisningsforberedelse. Jeg har prøvet lidt af hvert, men havde ikke rigtig fundet mig til rette. Ville gerne have en måde at lave små lokale filer, som kunne vises smukt og bl.a. kunne indeholde matematiske formler. Og jeg har fundet den perfekte kombination!

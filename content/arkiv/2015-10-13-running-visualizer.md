@@ -2,6 +2,7 @@
 Title : Running visualizer
 Author: Casper Kehlet Jensen
 Description: A small project for an alternative visualization of workouts (running)
+warning: Døde links!
 ---
 
 After a successful half marathon first Sunday this month, I really came to

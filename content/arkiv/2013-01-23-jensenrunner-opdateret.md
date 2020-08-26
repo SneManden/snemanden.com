@@ -1,6 +1,7 @@
 ---
 Title : JensenRunner opdateret
 Author: Casper Kehlet Jensen
+warning: Døde links!
 ---
 
 Der er sket en mindre opdatering af min løbe-app <a href="http://snemanden.com/jensenRunner/">Jensen Runner</a>. Jeg har tilføjet (indtil videre meget simpel) "social" funktionalitet til app'en. Dvs. man nu kan følge med i de seneste løbetider for andre brugere. Funktionaliteten er dog deaktiveret som standard - så dine løbetider er ikke offentlige før du selv vælger det.

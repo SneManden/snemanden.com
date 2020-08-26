@@ -1,6 +1,7 @@
 ---
 Title : Samlet 5. plads ved DTU RoboCup
 Author: Casper Kehlet Jensen
+warning: Døde links!
 ---
 
 Så er DTU RoboCup vel overstået! Og hvilken fantastisk turnering det var for os i år. Vi fik i år en <a href="http://www.iau.dtu.dk/robocup/resultat13.html" target="_blank">samlet 5. plads i finalen</a>, blandt 17 andre finaledeltagere. Vi tog 2x 11 points, hvilket vi er svært tilfredse med.

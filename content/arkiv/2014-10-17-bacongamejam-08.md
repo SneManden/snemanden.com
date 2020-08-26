@@ -2,6 +2,7 @@
 Title : BaconGameJam 08
 Author: Casper Kehlet Jensen
 Description: I am participating in the bacongamejam, the reddit-organized 48 hour game jam.
+warning: Døde links!
 ---
 
 I am in! I hope to participate in the [BaconGameJam](https://bacongamejam.org);

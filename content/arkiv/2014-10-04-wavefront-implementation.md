@@ -2,6 +2,7 @@
 Title : Wavefront Implementation
 Author: Casper Kehlet Jensen
 Description: Implementation af wavefront algoritmen til at finde en vej gennem et diskret arbejdsrum med forhindringer.
+warning: Døde links!
 ---
 
 En stille torsdag aften blev pludselig dedikeret til implementeringen af

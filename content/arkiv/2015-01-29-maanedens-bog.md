@@ -28,13 +28,13 @@ læse i de første 8 måneder. Jeg har overvejet hvorvidt det er bøger jeg er
 i besiddelse af eller nogen jeg skal købe, bogens længde, samt månedens
 forventede travlhed. Derudaf er jeg kommet op med følgende:
 
-1.  ✔[George Orwell: __1984__ [paperback, engelsk]](/blog/george-orwell-1984)
-2.  ✔[Herman Melville: __Moby Dick__ [kindle, engelsk]](/blog/moby-dick-or-the-whale)
-3.  ✔[William Golding: __Lord of the Flies__ [paperback, engelsk]](/blog/lord-of-the-flies)
-4.  ✔[Eliezer Yudkowsky: __Harry Potter and the Methods of Rationality__ [kindle, engelsk]](/blog/harry-potter-and-the-methods-of-rationality)
-5.  ✔[George Orwell: __Animal Farm__ [paperback, engelsk]](/blog/george-orwell-animal-farm)
-6.  ✔[Mario Puzo: __The Godfather__ [lån, paperback, engelsk]](/blog/the-godfather)
-7.  ✔[Stephen King: __22.11.63__ [hardback, dansk]](/blog/stephen-king-22-11-63)
+1.  ✔[George Orwell: __1984__ [paperback, engelsk]](/arkiv/george-orwell-1984)
+2.  ✔[Herman Melville: __Moby Dick__ [kindle, engelsk]](/arkiv/moby-dick-or-the-whale)
+3.  ✔[William Golding: __Lord of the Flies__ [paperback, engelsk]](/arkiv/lord-of-the-flies)
+4.  ✔[Eliezer Yudkowsky: __Harry Potter and the Methods of Rationality__ [kindle, engelsk]](/arkiv/harry-potter-and-the-methods-of-rationality)
+5.  ✔[George Orwell: __Animal Farm__ [paperback, engelsk]](/arkiv/george-orwell-animal-farm)
+6.  ✔[Mario Puzo: __The Godfather__ [lån, paperback, engelsk]](/arkiv/the-godfather)
+7.  ✔[Stephen King: __22.11.63__ [hardback, dansk]](/arkiv/stephen-king-22-11-63)
 8.  ☐George R. R. Martin: __A Feast for Crows__ [kindle, engelsk]
 9.  ☐Frank Herbert: __Dune__
 10. ☐Ray Bradbury: __Fahrenheit 451__

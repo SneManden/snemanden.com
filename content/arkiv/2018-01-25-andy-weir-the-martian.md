@@ -2,6 +2,7 @@
 title : Andy Weir: The Martian
 author: Casper Kehlet Jensen
 description: Noter efter at have læst Andy Weir: The Martian
+warning: Døde links!
 ---
 
 Efter en længere læsepause, har jeg igen prioriteret jævnlig læsning.

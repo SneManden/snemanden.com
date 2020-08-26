@@ -2,6 +2,7 @@
 Title : Kolding Bibliotek
 Author: Casper Kehlet Jensen
 Description: En artikel om biblioteket som institution med udgangspunkt i Koldings bibliotek.
+warning: Døde links!
 ---
 
 Biblioteket. _Bib_. Prøv at smage på ordet. Hvis du lukker øjnene, hvad ser du så for dig?

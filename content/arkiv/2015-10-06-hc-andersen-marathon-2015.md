@@ -2,6 +2,7 @@
 Title : H.C. Andersen ½ Marathon 2015
 Author: Casper Kehlet Jensen
 Description: Essay for oplevelsen ved H.C. Andersen Marathon 2015 i Odense. Det var et godt løb.
+warning: Døde links!
 ---
 
 Den 4. oktober 2015 deltog jeg ved H.C. Andersen Marathon (½ maraton distancen)

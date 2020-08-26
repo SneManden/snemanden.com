@@ -2,6 +2,7 @@
 Title : Janne Teller: Odins Ø
 Author: Casper Kehlet Jensen
 Description: Noter efter at have læst Janne Teller: Odins Ø
+warning: Døde links!
 ---
 
 Et gensyn med Janne Teller i det nye år har været en anderledes men interessant oplevelse.

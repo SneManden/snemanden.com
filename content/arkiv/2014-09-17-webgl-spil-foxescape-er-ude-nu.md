@@ -2,6 +2,7 @@
 Title : WebGL spil: Foxescape er ude nu!
 Author: Casper Kehlet Jensen
 Description: Første WebGL spil er realiseret: "Fox, Escape from Evil McGrabberson" er ude nu!
+warning: Døde links!
 ---
 
 Så har jeg opdateret spil-siden for [Foxescape](/spil/foxescape), med mine

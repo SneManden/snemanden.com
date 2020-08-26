@@ -1,6 +1,7 @@
 ---
 Title : Sorteringsalgoritmer visualiseret
 Author: Casper Kehlet Jensen
+warning: Døde links!
 ---
 
 Jeg faldt for nylig over denne fine blogpost [http://glowingpython.blogspot.dk..](http://glowingpython.blogspot.dk/2013/03/bubble-sort-visualized.html). Det er et lille python script, som løbende plotter den fantastiske sorteringsalgoritme BubbleSort i aktion.

@@ -2,6 +2,7 @@
 Title : Beating "Save Otto Griffis"
 Author: Casper Kehlet Jensen
 Description: Here I show how to beat my own game, Save Otto Griffis, my entry to the BaconGameJam08.
+warning: Døde links!
 ---
 
 I recently entered and submitted a game to the

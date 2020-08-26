@@ -7,7 +7,7 @@ Description: Blogpost om oplevelsen af George Orwell's Animal Farm.
 Politisk satire fra tiden før og under II. Verdenskrig er ikke umiddelbart en
 beskrivelse af min foretrukne genre, når jeg vælger at kaste mig over
 bogformatet. Men efter at have læst Orwell's fremragende dystopiske roman
-[Nineteen Eighty-Four (1984)](/blog/george-orwell-1984) var jeg mere end parat
+[Nineteen Eighty-Four (1984)](/arkiv/george-orwell-1984) var jeg mere end parat
 til at kaste mig ud i endnu et George's roste mesterværker; for det er helt
 sikkert hvad *Animal Farm* er, et mesterværk.
 

@@ -9,8 +9,8 @@ Men der er også fordele ved den øgede pris på en harddisk med mindre plads; h
 
 Mit valg faldt på en 128GB OCZ Vertex 4. Og jeg er ikke skuffet! Min computer føles nu kvik og responsiv som aldrig før og boot-tiden er gået gevaldigt ned. 10-15 sekunder går der fra jeg trykker på knappen på min Vaio, til jeg kan indtaste min adgangskode til systemet.
 
-Selve udskiftningen af harddisken forløb <i>næsten</i> smertefrit. At skrue i en moderne bærbar er intet problem, hvor harddisken ofte let kan udtages og udskiftes. Det gjaldt også for min <b>Sony Vaio VPCCB</b>. Da jeg først havde udskiftet harddisken og skulle installere Ubuntu 12.04 havde jeg dog lidt små problemer. Det viser sig desværre, at med den aktuelle firmware, kan min SSD på mit system ikke genkendes ved opstart. Dog er problemet delvist løst. Jeg vil ikke udlægge alle detaljer her, men mit fix består i at trykke "CTRL+ALT+DELETE" ved opstart, hvorefter den vil reboote korrekt. OCZ har meddelt, at det vil blive rettet i en firmware-opdatering (SSD producenten).
+Selve udskiftningen af harddisken forløb *næsten* smertefrit. At skrue i en moderne bærbar er intet problem, hvor harddisken ofte let kan udtages og udskiftes. Det gjaldt også for min **Sony Vaio VPCCB**. Da jeg først havde udskiftet harddisken og skulle installere Ubuntu 12.04 havde jeg dog lidt små problemer. Det viser sig desværre, at med den aktuelle firmware, kan min SSD på mit system ikke genkendes ved opstart. Dog er problemet delvist løst. Jeg vil ikke udlægge alle detaljer her, men mit fix består i at trykke "CTRL+ALT+DELETE" ved opstart, hvorefter den vil reboote korrekt. OCZ har meddelt, at det vil blive rettet i en firmware-opdatering (SSD producenten).
 
 Men alt i alt, er jeg ovenud tilfreds med min rasende hurtige SSD og den øgede performance det har givet. Kan varmt anbefales! Nyttigt link jeg har anvendt i forbindelse med anskaffelsen af en SSD:
 
-<a href="http://ssddisk.dk/">ssddisk.dk</a> - info om SSD'er og sammenligning af priser fra forskellige forhandlere.
+[ssddisk.dk](http://ssddisk.dk/) - info om SSD'er og sammenligning af priser fra forskellige forhandlere.

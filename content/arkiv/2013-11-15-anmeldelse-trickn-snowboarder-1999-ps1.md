@@ -1,6 +1,7 @@
 ---
 Title : Anmeldelse: Trick'n Snowboarder (1999) [PS1]
 Author: Casper Kehlet Jensen
+warning: Døde links!
 ---
 
 Trick'n Snowboarder er et traditionelt snowboardspil, som man kender det fra den populære genre. Det primære formål med spillet er at kaste sig ned af bjergene og udføre fede tricks undervejs.

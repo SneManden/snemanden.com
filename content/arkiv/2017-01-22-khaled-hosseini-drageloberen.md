@@ -2,6 +2,7 @@
 Title : Khaled Hosseini: Drageløberen
 Author: Casper Kehlet Jensen
 Description: Indtryk af Khaled Hosseinis roman, Drageløberen.
+warning: Døde links!
 ---
 
 Bogen mange åbenbart har fået serveret i folkeskolen, har jeg først i midten af mine tyvere stiftet bekendtskab med.

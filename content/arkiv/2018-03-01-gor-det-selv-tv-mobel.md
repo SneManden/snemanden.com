@@ -2,6 +2,7 @@
 Title : Gør-det-selv TV-møbel
 Author: Casper Kehlet Jensen
 Description: Hjemmebygget TV-møbel som IKEA-hack med egetræsfinish
+warning: Døde links!
 ---
 
 I de forgangne uger har jeg *puslet* med et lille projekt, som jeg har haft mulighed for at gøre færdigt nu når jeg har haft (og næsten afsluttet) 14 dages "ferie". Efter at være flyttet skulle vi have os et TV-møbel (Tv-bænk) til at stå eller hænge under fjernsynet med plads til PlayStation og diverse. Da vi ikke var tilfredse med hvad vi kunne finde på markedet ifht. design, kvalitet og pris, måtte jeg jo lave det selv!

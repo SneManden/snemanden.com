@@ -1,6 +1,7 @@
 ---
 Title : DTU Robocup - here we come!
 Author: Casper Kehlet Jensen
+warning: Døde links!
 ---
 
 Så har fornuften lidt et svidende nederlag til sin evige ærkerival: passionen! For stik imod al sund rationel tankegang er det blevet besluttet at vi igen i år vil deltage ved <a href="http://www.dtu.dk/subsites/robocup.aspx" target="_blank">DTU Robocup</a>! Jeg må indrømme at jeg til at begynde med havde stor skepsis for denne beslutning - men man har et standpunkt... (jaja).

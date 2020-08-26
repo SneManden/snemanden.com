@@ -1,6 +1,7 @@
 ---
 Title : Aftenprojekt: lister
 Author: Casper Kehlet Jensen
+warning: Døde links!
 ---
 
 Mit seneste aften-/miniprojekt er <a href="http://snemanden.com/lister">Lister</a>. Det er en nem, lille liste-app til at skrive små dosmer-seddler, todo-lister  osv.

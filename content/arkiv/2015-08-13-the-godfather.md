@@ -2,6 +2,7 @@
 Title : Mario Puzo: The Godfather
 Author: Casper Kehlet Jensen
 Description: Tanker vedrørende Mario Puzo's bestseller 'The Godfather'.
+warning: Døde links!
 ---
 
 En af de mest bedste cinematiske oplevelser jeg har oplevet er utvivlsomt

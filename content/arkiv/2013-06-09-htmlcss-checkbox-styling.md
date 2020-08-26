@@ -1,6 +1,7 @@
 ---
 Title : HTML/CSS: Checkbox styling
 Author: Casper Kehlet Jensen
+warning: Døde links!
 ---
 
 Selv i år 2013, står det med flere HTML-elementer sløvt til hvad angår

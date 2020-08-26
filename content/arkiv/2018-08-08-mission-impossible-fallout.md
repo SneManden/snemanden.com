@@ -2,6 +2,7 @@
 Title : Mission: Impossible - Fallout
 Author: Casper Kehlet Jensen
 Description: Anmeldelse af den nyeste Mission: Impossible - Fallout.
+warning: Døde links!
 ---
 
 Efter mange henvendelser fra mine trofaste læsere på bloggen her,

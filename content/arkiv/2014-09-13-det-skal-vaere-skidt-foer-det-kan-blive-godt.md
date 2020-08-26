@@ -2,6 +2,7 @@
 Title : Det skal være skidt, før det kan blive godt
 Author: Casper Kehlet Jensen
 Description: Dårlig opsætning resulterer i tab af værdifuld information. Men det sætter også gang i en tiltrængt oprydningsproces...
+warning: Døde links!
 ---
 
 Jeg havde lige afsluttet et projekt (mit 3D WebGL spil [foxescape][foxescape])
