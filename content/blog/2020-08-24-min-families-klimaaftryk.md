@@ -6,12 +6,12 @@ description: En lille gennemgang af hvad vi gør (og stadig ikke gør) for at ne
 Min og hele familiens mærkesag er **Klima & Miljø**.
 I takt med at vores forståelse for de problematikker og udfordringer
 vi som indbyggere på planeten Jorden står overfor, har vi forsøgt at
-tilpasse vores hverdag efter at mindske vores resourceforbrug og værne
+tilpasse vores hverdag efter at mindske vores ressourceforbrug og værne
 om natur og nærmiljø.
 
 Helt konkrete tiltag hertil er:
- *  Vi spiser på egen matrikkel en pescetarisk kost
-    (dvs. uden kød foruden fisk);rent klimamæssigt er det en af de bedste
+ *  Vi spiser på egen matrikkel en pescetarisk kost;
+    (dvs. uden kød foruden fisk) rent klimamæssigt er det en af de bedste
     ting man som forbruger kan gøre for at nedsætte sit CO<sub>2</sub>-aftryk.
  *  Næsten alt vi køber er genbrug; tøj, sko, møbler, legetøj og baby/børne-udstyr.
     Og når vi køber nyt prøver vi så vidt muligt at gå efter varer af høj

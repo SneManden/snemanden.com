@@ -13,7 +13,7 @@
             Datalogi ved Syddansk Universitet i Odense.
         </p>
         <p>
-            I løbet af denne blogs levetid har min interesser udviklet
+            I løbet af denne blogs levetid har mine interesser udviklet
             sig i takt med min støt stigende alder.
             Således vil man i arkivet fx kunne finde spilanmeldelser
             for FIFA; en hobby som i dag er trådt (meget) i baggrunden
@@ -22,7 +22,7 @@
         </p>
         <p>
             En stor del af vores liv og hverdag er med tanke på vores
-            klima og miljø; vores resourceforbrug og affaldsproduktion
+            klima og miljø; vores ressourceforbrug og affaldsproduktion
             og hvilke konsekvenser det har for natur, planer, dyr og andre
             mennesker. Ligesom mine andre interesser skal danne grundlag
             for mine skriverier her på bloggen, vil klima og miljø være
@@ -48,6 +48,12 @@
             kan se lidt rå ud. Beklager!
             Det gælder også visse programmeringsressourcer, kildekodefiler,
             små javascript-biblioteker (<strong>Rating-viewer</strong> fx).
+        </p>
+        <p>
+            Størst af alt er det også (i første omgang i al fald) et farvel til
+            det lille arkiv af spil jeg havde udviklet.
+            Det må jeg naturligvis også beklage dybt; men hvem ved, måske de bliver
+            genoplivet en skønne dag?
         </p>
         <p>
             Kontakt mig hvis der er et særligt indlæg du vil have genskabt,
