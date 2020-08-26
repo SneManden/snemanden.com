@@ -2,7 +2,6 @@
 Title : Paulo Coelho: The alchemist
 Author: Casper Kehlet Jensen
 Description: Indtryk af Paulo Coelhos roman, The Alchemist.
-warning: Døde links!
 ---
 
 'The Alchemist' er en særegen fabel om en simpel fårehyrde fra Andalusien
@@ -30,4 +29,4 @@ gemt på de knap 177 sider.
 Coelhos 'The Alchemist' er blevet en af mine favoritter. Jeg kan stærkt anbefale
 enhver at læse den, og suge til sig af de mange gode budskaber der gemmer sig.
 
-![Paulo Coelho: The Alchemist](/static/img/paulocoelho_thealchemist.jpg)
+![Paulo Coelho: The Alchemist](/img/arkiv/paulo-coelho-the-alchemist/paulocoelho_thealchemist.jpg)

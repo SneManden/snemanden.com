@@ -13,7 +13,12 @@
 <article>
     <header>
         <h1>{ post.title }</h1>
-        <div class="timestamp">{ post.published?.timestamp }</div>
+        <div class="right">
+            <div class="timestamp">{ post.published?.timestamp }</div>
+            {#if post.warning }
+            <div class="warning">{ post.warning }</div>
+            {/if}
+        </div>
     </header>
     <section>
         { @html post.html }

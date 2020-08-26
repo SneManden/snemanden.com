@@ -1,5 +1,5 @@
 ---
-Title : Tegneprogram/billedebehandlingsprogram for Linux
+Title : Tegneprogram / billedebehandlingsprogram for Linux
 Author: Casper Kehlet Jensen
 ---
 

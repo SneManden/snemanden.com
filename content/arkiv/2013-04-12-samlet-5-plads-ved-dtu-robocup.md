@@ -1,7 +1,7 @@
 ---
 Title : Samlet 5. plads ved DTU RoboCup
 Author: Casper Kehlet Jensen
-warning: Døde links!
+warning: Billedviser død!
 ---
 
 Så er DTU RoboCup vel overstået! Og hvilken fantastisk turnering det var for os i år. Vi fik i år en <a href="http://www.iau.dtu.dk/robocup/resultat13.html" target="_blank">samlet 5. plads i finalen</a>, blandt 17 andre finaledeltagere. Vi tog 2x 11 points, hvilket vi er svært tilfredse med.
@@ -11,112 +11,112 @@ Du kan se eller gense hele konkurrencen fra hjemmesiden: [robocup.dtu.dk](http:/
 <div id="mjc-galleri2013" class="slider" title="Tip: du kan bruge pil-tasterne til at navigere i galleriet">
     <ul class="slides">
         <li>
-            <img src="/static/img/blogimages/mjc/mjc2013-resized.jpg" alt="MJC før konkurrencen">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc2013-resized.jpg" alt="MJC før konkurrencen">
             <h4>Før konkurrencen</h4>
             <p>Mikkel og jeg måtte på egen hånd stå for forberedelsen til Robocup'en, da Joakim var udenlands, weekenden op til konkurrencen. Gulvet var som sædvanligt tilklistret med sorte streger.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc2013-motortrouble-03-resized.jpg" alt="MJC har motorproblemer">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc2013-motortrouble-03-resized.jpg" alt="MJC har motorproblemer">
             <h4>Motorproblemer</h4>
             <p>De sædvanlige hardware problemer. Vores robot-mekaniker forsøger at reparere motorerene. Det lykkedes at få dem under kontrol!</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-101-start.png" alt="MJC ved start">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-101-start.png" alt="MJC ved start">
             <h4>MJC til start</h4>
             <p>Så skal MJC vise hvad den kan. Batteriet tilsluttes og robotten sætter igang.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-001-start.png" alt="MJC ved start">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-001-start.png" alt="MJC ved start">
             <h4>Tæt på katatstrofe!</h4>
             <p>I det første gennemløb sker en mærkelig fejl ved start; Mikkel er dog vågen, og får den startet rigtigt.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-002-guilotine.png" alt="MJC kører gennem guilotinen">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-002-guilotine.png" alt="MJC kører gennem guilotinen">
             <h4>Guillotineporten</h4>
             <p>Første forhindring er en guillotine, som fastsætter en minimumsgrænse for den tilladte hastighed. Den står dog ikke mål med MJC's hastighed.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-103-opaframpen.png" alt="MJC kører op ad rampen">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-103-opaframpen.png" alt="MJC kører op ad rampen">
             <h4>Op ad rampen</h4>
             <p>For at komme op ad rampen kører vi her en smule stærkere end på resten af banen. Den klarer den dog uden problemer.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-106-opaframpen.png" alt="MJC closeup">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-106-opaframpen.png" alt="MJC closeup">
             <h4>MJC helt tæt på</h4>
             <p>MJC er ikke typen der skal have et chasis; Vi synes det er smukt at man kan se de mange forbindelser og komponenter den er gjort af.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-107-paarampen.png" alt="MJC på rampen">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-107-paarampen.png" alt="MJC på rampen">
             <h4>MJC på rampen</h4>
             <p>Her ses en af de to orange golfbolde, som hver giver ét point hvis de opsamles og "skydes" i hullet. Ikke noget MJC er forberedt på.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-108-nedaframpen.png" alt="MJC kører ned ad rampen">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-108-nedaframpen.png" alt="MJC kører ned ad rampen">
             <h4>Ned ad rampen igen</h4>
             <p>Der er i alt 3 nedgange: via vippe, trappe eller rampe - MJC vælger den sikre løsning.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-006-linje.png" alt="MJC på linjen">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-006-linje.png" alt="MJC på linjen">
             <h4>På linjen</h4>
             <p>Det meste af tiden befinder MJC sig på en sort linje, som den følger. Dette klares ved hjælp af 8 infrarøde sensorer, placeret under det sorte "fejeblad" forrest.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-005-udenlinje.png" alt="MJC udenfor stregen">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-005-udenlinje.png" alt="MJC udenfor stregen">
             <h4>Udenfor linjen</h4>
             <p>Men banen er delt i to dele, som ikke er forbundet af en streg. Dette er et af de sværeste steder på banen, da der ikke er noget at navigere efter.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-109-hastighed.png" alt="MJC kører stærkt">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-109-hastighed.png" alt="MJC kører stærkt">
             <h4>Hastighedsbanen</h4>
             <p>På hastighedsbanen, gives 0-3 point efter hvor hurtigt strækningen tilbagelægges.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-008-hastighed.png" alt="MJC stærkt i svinget">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-008-hastighed.png" alt="MJC stærkt i svinget">
             <h4>Rundt i svinget</h4>
             <p>Vi anvender en PID algoritme, som gør at vi kan følge stregen ved høje hastigheder - også med sving.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-009-3hastighedspoint.png" alt="MJC tager alle 3 hastighedspoint">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-009-3hastighedspoint.png" alt="MJC tager alle 3 hastighedspoint">
             <h4>3 hastighedspoint</h4>
             <p>Vi tog alle 3 hastighedspoint med den bedste tid på hastighedsbanen (Sortskæg kørte i samme tid). Grænsen til 2 point går ved 7.5 sekunder.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-010-okseport.png" alt="MJC ved okseporten">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-010-okseport.png" alt="MJC ved okseporten">
             <h4>Økseporten</h4>
             <p>Økseporten har vi aldrig rigtig haft problemer med. Vi anvender en sikker algoritme, der langsomt nærmer sig øksen, indtil det er forsvarligt at køre igennem. Til dette anvendes ultralydscensorerene, der ses forrest på robotten.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-114-igennemokseport.png" alt="MJC er igennem okseporten">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-114-igennemokseport.png" alt="MJC er igennem okseporten">
             <h4>Sikkert igennem</h4>
             <p>Okseporten giver 2 point, så vi er på dette tidspunkt oppe på 9 point.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-115-venderom.png" alt="MJC vender om">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-115-venderom.png" alt="MJC vender om">
             <h4>Der vendes om</h4>
             <p>Noget af det sværeste er at køre uden streg. Så derfor valgte vi i år ikke at køre gennem labyrinten. Den tager istedet økseporten igen.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-117-linje.png" alt="MJC på linjen">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-117-linje.png" alt="MJC på linjen">
             <h4>På vej hjem</h4>
             <p>Turen går tilbage ad hastighedsbanen, over stykket uden linje og tilbage til mål. Under kvalifikationen havde vi ikke helt styr på at komme hjem, så med 2 hastighedspoint fik vi her 8 point.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-118-fliser.png" alt="MJC på fliserne">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-118-fliser.png" alt="MJC på fliserne">
             <h4>Fliser</h4>
             <p>Gulvbelægningen er ikke helt ensartet; der er også fliser på dele af banen, som med deres mørkere overflade står i svagere kontrast til den sorte streg. Noget især Lego-robotterne har problemer med.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-119-roskilderingen.png" alt="MJC tør ikke roskilderingen">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-119-roskilderingen.png" alt="MJC tør ikke roskilderingen">
             <h4>Roskilderingen</h4>
             <p>Foran MJC tårner sig højt den frygtindgydende Roskildering. Robottens fysiske karakteristika gør, at den med dens høje vægt har svært ved at køre derigennem og få de 3 ekstra point.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-121-imaal.png" alt="MJC er i mål">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-121-imaal.png" alt="MJC er i mål">
             <h4>MJC kører sikkert i mål</h4>
             <p>Så derfor drejedes i stedet af, og robotten fortsætter til mål, som udløser yderligere 2 point. I alt 11 point, som MJC tog sikkert i begge gennemløb.</p>
         </li>
         <li>
-            <img src="/static/img/blogimages/mjc/mjc-stillingen2013.png" alt="DTU Robocup finalen 2013 stillingen">
+            <img src="/img/arkiv/samlet-5-plads-ved-dtu-robocup/mjc-stillingen2013.png" alt="DTU Robocup finalen 2013 stillingen">
             <h4>En 5. plads</h4>
             <p>Her ses den samlede stillingen i finalen efter de to gennemløb; Sortskæg vandt suverænt konkurrencen, 2. pladsen gik til en sej Lego-robot med tilpasningsfunktionalitet og 3. pladsen gik til Wild Willy, som har været med i rigtig mange år.</p>
         </li>

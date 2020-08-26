@@ -2,14 +2,13 @@
 Title : Signe Wenneberg: Byg Bæredygtigt
 Author: Casper Kehlet Jensen
 Description: Signe Wenneberg har skrevet bogen om sit sommerhuseventyr: Byg Bæredygtigt; Her er indtrykket.
-warning: Døde links!
 ---
 
 Signe, du er for vild. Signe, jeg hører dig. Signe, du har ret.
 Signe, du havde en drøm. Signe, det var en _smuk_ drøm.
 Signe? Jeg vil være (lidt) ligesom dig.
 
-![Signe Wenneberg: Byg bæredygtigt](/static/img/blogimages/signe_wenneberg.jpg)
+![Signe Wenneberg: Byg bæredygtigt](/img/arkiv/signe-wenneberg-byg-baeredygtigt/signe_wenneberg.jpg)
 
 Hvis dette var en artikel trykt eller vist i/hos et af de større
 mediehuse, ville den nok indledes med et svar på _hvorfor_.

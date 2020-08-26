@@ -13,7 +13,12 @@
                 <h1>
                     <a rel="prefetch" href="{url}/{post.slug}">{ post.title }</a>
                 </h1>
-                <div class="timestamp">{ post.published?.timestamp }</div>
+                <div class="right">
+                    <div class="timestamp">{ post.published?.timestamp }</div>
+                    {#if post.warning }
+                    <div class="warning">{ post.warning }</div>
+                    {/if}
+                </div>
             </header>
             <section class="excerpt">
                 <p>

@@ -2,7 +2,6 @@
 Title : The Hitchhiker's Guide to the Galaxy
 Author: Casper Kehlet Jensen
 Description: Noter vedrørende Douglas Adams' rumhistorie The Hitchhiker's Guide to the Galaxy
-warning: Døde links!
 ---
 
 *The Hitchhiker's Guide to the Galaxy* er en af de sjoveste bøger jeg har læst[¹](#note1) længe.
@@ -12,7 +11,7 @@ I modsætning til tidligere anmeldelser/blogposts om tidligere læste bøger, ka
 
 *The Hitchhiker's Guide to the Galaxy* er den første bog i en triologi af fem &mdash; og jeg kan ikke vente med at læse den næste.
 
-![Douglas Adams: The Hitchhiker's Guide to the Galaxty](/static/img/douglasadams_thehitchhikersguidetothegalaxy.jpg)
+![Douglas Adams: The Hitchhiker's Guide to the Galaxty](/img/arkiv/the-hitchhikers-guide-to-the-galaxy/douglasadams_thehitchhikersguidetothegalaxy.jpg)
 
 ---
 

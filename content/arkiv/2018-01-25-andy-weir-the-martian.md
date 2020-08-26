@@ -2,7 +2,6 @@
 title : Andy Weir: The Martian
 author: Casper Kehlet Jensen
 description: Noter efter at have læst Andy Weir: The Martian
-warning: Døde links!
 ---
 
 Efter en længere læsepause, har jeg igen prioriteret jævnlig læsning.
@@ -27,4 +26,4 @@ menneske tilbage på planeten, og må tage en del kaniner op ad hatten for at pr
 ## Konklusion
 Mere science fiction. Den kan ikke få for lidt. *10/10 would read again*.
 
-![Andy Weir: The Martian](/static/img/andy-weir-the-martian.jpg)
+![Andy Weir: The Martian](/img/arkiv/andy-weir-the-martian/andy-weir-the-martian.jpg)

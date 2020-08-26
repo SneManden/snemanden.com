@@ -2,7 +2,6 @@
 Title : Mario Puzo: The Godfather
 Author: Casper Kehlet Jensen
 Description: Tanker vedrørende Mario Puzo's bestseller 'The Godfather'.
-warning: Døde links!
 ---
 
 En af de mest bedste cinematiske oplevelser jeg har oplevet er utvivlsomt
@@ -12,7 +11,7 @@ I et hæsblæsende tempo og med et omfattende persongalleri af interessante
 italienere og amerikanere, fortæller Puzo om den indflydelsesrige mafiafamilie
 *Corleone*, og om *Don*'ens <span class="spoiler">storhed og fald</span>. 
 
-![Mario Puzo: The Godfather](/static/img/blogimages/marioPuzo_TheGodfather.jpg)
+![Mario Puzo: The Godfather](/img/arkiv/the-godfather/marioPuzo_TheGodfather.jpg)
 
 > A man who doesn't spend time with his family can never be a real man.
 

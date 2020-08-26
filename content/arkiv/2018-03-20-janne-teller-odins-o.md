@@ -2,15 +2,14 @@
 Title : Janne Teller: Odins Ø
 Author: Casper Kehlet Jensen
 Description: Noter efter at have læst Janne Teller: Odins Ø
-warning: Døde links!
 ---
 
 Et gensyn med Janne Teller i det nye år har været en anderledes men interessant oplevelse.
 Efter at have læst *The Martian*, kastede jeg mig over *Odins Ø* af Janne Teller, en forfatter
-jeg tidligere har været introduceret til (se [Intet](/blog/intet)) og fundet særlig læseværdig.
+jeg tidligere har været introduceret til (se [Intet](/arkiv/intet)) og fundet særlig læseværdig.
 Det var mig derfor naturligt at læse hendes første udgivelse, *Odins Ø*, da jeg fik den i gave forrige jul.
 
-![Janne Teller: Odins Ø](/static/img/janne-teller-odins-o.jpg)
+![Janne Teller: Odins Ø](/img/arkiv/janne-teller-odins-o/janne-teller-odins-o.jpg)
 
 Og sikken bog; overhovedet ikke som jeg havde forestillet mig, men spændende læsning fra ende til anden.
 Kort fortalt, er *Odins Ø* sat i nutiden (1999, samme år bogen er fra) i et samfund ganske lig vores.
@@ -40,4 +39,4 @@ PS: Jeg tænker nogle gange, det må være forunderligt, som forfatter, hvilke m
 
 PPS: Bogrotten Rasmus har været luftet for første gang med denne bog. Det er naturligvis Jeanette der selv har hæklet det flotte bogmærke til mig.
 
-![Bogrotten Rasmus](/static/img/bogrotten_rasmus.jpg)
+![Bogrotten Rasmus](/img/arkiv/janne-teller-odins-o/bogrotten_rasmus.jpg)

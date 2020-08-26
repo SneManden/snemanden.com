@@ -62,6 +62,7 @@ export function parseFile(directory: string, filename: string): IPost {
         title: metadata.title ?? "",
         author: metadata.author ?? "Casper Kehlet Roi",
         description: metadata.description ?? "",
+        warning: metadata.warning ?? null,
         draft: !!metadata.draft,
         published: new PostDate(pubdate)
     };
@@ -72,6 +73,7 @@ export function asPostListing(post: IPost): PostListing {
         title: post.title,
         slug: post.slug,
         excerpt: post.excerpt,
-        published: post.published
+        published: post.published,
+        warning: post.warning
     };
 }

@@ -2,7 +2,6 @@
 Title : Khaled Hosseini: Drageløberen
 Author: Casper Kehlet Jensen
 Description: Indtryk af Khaled Hosseinis roman, Drageløberen.
-warning: Døde links!
 ---
 
 Bogen mange åbenbart har fået serveret i folkeskolen, har jeg først i midten af mine tyvere stiftet bekendtskab med.
@@ -27,4 +26,4 @@ En nærvæerende kontekst til de konflikter der på ugentlig basis præger (nogl
 Afslutningsvis kan jeg derfor også rette en tak til Jeanette, hvem anbefalede mig at læse denne.
 Der har tilmed været tale om et eksemplar fra min (nu) egen bogreol, så det er jo skønt, at jeg nu der også kan søge inspiration til spændende og nye litterære oplevelser.
 
-![Khaled Hosseini: Drageløberen](/static/img/khaledhosseini_drageløberen.jpg)
+![Khaled Hosseini: Drageløberen](/img/arkiv/khaled-hosseini-drageloberen/khaledhosseini_drageløberen.jpg)

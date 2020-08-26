@@ -10,9 +10,10 @@ export interface IPost {
     excerpt: string;
 
     draft: boolean;
+    warning: string | null;
 }
 
-export type PostListing = Pick<IPost, "title" | "excerpt" | "slug" | "published">;
+export type PostListing = Pick<IPost, "title" | "excerpt" | "slug" | "published" | "warning">;
 
 export interface IPostDate {
     year: number;

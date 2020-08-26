@@ -2,7 +2,6 @@
 Title : Kolding Bibliotek
 Author: Casper Kehlet Jensen
 Description: En artikel om biblioteket som institution med udgangspunkt i Koldings bibliotek.
-warning: Døde links!
 ---
 
 Biblioteket. _Bib_. Prøv at smage på ordet. Hvis du lukker øjnene, hvad ser du så for dig?
@@ -13,7 +12,7 @@ Biblioteket kan så meget. Biblioteket vil så meget. Jeg har set toppen af isbj
 som en isterning i det (før konsekvenserne på klimaet af den industrielle revolution) arktiske hav.
 (Sorry, var det for meget?)
 
-![Kolding Bibliotek](/static/img/blogimages/koldingbib.jpg)
+![Kolding Bibliotek](/img/arkiv/kolding-bibliotek/koldingbib.jpg)
 
 Kolding. Ja, jeg er bosiddende i Kolding. Jeg er ikke en ægte _Koldinger_, blot en gemen _Koldingenser_.
 En tilflytter. Så jeg er ved at lære byen at kende. Efterhånden kender jeg turen fra togstationen til
@@ -113,7 +112,7 @@ jeg har haft med Kolding Biblioteks personale har været ganske rare, nærværen
 Ellers, prøv bare scrolle ned gennem deres Facebook side _Mit Bibliotek Kolding_. Der er nogle guldkorn i mellem.
 Jeg har taget et lille udpluk.
 
-![Udvalgte Facebookopslag fra Kolding Biblioteks](/static/img/blogimages/koldingbib_fb_collage.png)
+![Udvalgte Facebookopslag fra Kolding Biblioteks](/img/arkiv/kolding-bibliotek/fb_collage.png)
 
 ### 3. Biblioteket er ikke moderne og en teknologisk dinosaurus
 Se, det er vel nok min egen fordom, før jeg havde min ugentlige gang på bibliotekets lækre trægulve.
@@ -144,7 +143,7 @@ ambivilent forhold til &mdash; det er lidt corny) når jeg træder ind på bibli
 _klippe og klistre_, _læse om gys og gru_, _læse sjove vittigheder_, eller _lære at tegne_. Det synes jeg er
 forfriskende, og inspirerende. Måske endda udfordrende.
 
-![Kolding Bibliotek: at lære at tegne](/static/img/blogimages/koldingbib_tegne.jpg)
+![Kolding Bibliotek: at lære at tegne](/img/arkiv/kolding-bibliotek/tegne.jpg)
 
 ### 5. Et bibliotek er sådan et sted man bliver "sssh"-et på
 Her er et fantastisk eksempel på Kolding biblioteks imødekommenhed overfor dets brugere og lånere.
@@ -156,7 +155,7 @@ tilfældigt sted. Til frustration for alle, da en søgning på computeren jo ikk
 &mdash; og så er den jo praktisk talt forsvundet.
 Her er den perfekte løsning:
 
-![Venlighed på Kolding Bibliotek](/static/img/blogimages/koldingbib_venlighed.jpg)
+![Venlighed på Kolding Bibliotek](/img/arkiv/kolding-bibliotek/venlighed.jpg)
 
 ## Konklusion 
 Biblioteket har så meget at byde på, er velsagtens mit primære budskab i denne artikel.

@@ -2,7 +2,7 @@
 Title : Mission: Impossible - Fallout
 Author: Casper Kehlet Jensen
 Description: Anmeldelse af den nyeste Mission: Impossible - Fallout.
-warning: Døde links!
+warning: Rating mangler
 ---
 
 Efter mange henvendelser fra mine trofaste læsere på bloggen her,
@@ -39,8 +39,8 @@ _at flyve helikopter_!
 At der også er tale om ganske svære og farlige flyvninger tæt på terræn
 er blot endnu mere imponerende.
 
-<a href="/static/img/blogimages/preikestolen_me.jpg">
-  <img src="/static/img/blogimages/preikestolen_me.jpg" alt="Oppe på Preikestolen, sommeren 2015, Norge" id="preikestolen" />
+<a href="/img/arkiv/mission-impossible-fallout/preikestolen_me.jpg">
+  <img src="/img/arkiv/mission-impossible-fallout/preikestolen_me.jpg" alt="Oppe på Preikestolen, sommeren 2015, Norge" id="preikestolen" />
 </a>
 
 Hen i mod slutningen bidrog filmen med et ekstra, for mig personligt,

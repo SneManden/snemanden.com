@@ -2,7 +2,6 @@
 Title : H.C. Andersen ½ Marathon 2015
 Author: Casper Kehlet Jensen
 Description: Essay for oplevelsen ved H.C. Andersen Marathon 2015 i Odense. Det var et godt løb.
-warning: Døde links!
 ---
 
 Den 4. oktober 2015 deltog jeg ved H.C. Andersen Marathon (½ maraton distancen)
@@ -38,7 +37,7 @@ interesse i sproget og håb om en litterær orgasme, må jeg nok skuffe), men
 alligevel i et moderat tempo som passer det godt. I hvert fald luntede jeg med
 Farmand mod start og den grønne ballon. Pace 04:16 min/km (maraton tid 03:00:00).
 
-![Placeholder](/static/img/blogimages/hcamarathon2015/hca2015-pre-far+casper-resized.jpg)  
+![Placeholder](/img/arkiv/hc-andersen-marathon-2015/hca2015-pre-far+casper-resized.jpg)  
 Pre: Far og Casper klar til start.
 
 Andreas tilkendegiver sin tilstedeværelse i feltet; endnu en maratonløber fra
@@ -48,7 +47,7 @@ noget rutineret herre med 20 maraton bag sig udviser ikke helt samme nervøsitet
 giver Farmand et anerkendende nik og forundres over den aparte (min overraskende
 fine) klassiske musik fra højtalerne. Bang. Sæt i gang.
 
-![Placeholder](/static/img/blogimages/hcamarathon2015/hca2015-start-gormfoto-resized.jpg)  
+![Placeholder](/img/arkiv/hc-andersen-marathon-2015/hca2015-start-gormfoto-resized.jpg)  
 H.C. Andersen Marathon 2015 skydes igang! &copy; gormfoto.dk.
 
 Min første tanke omhandler mine ben, som virker en anelse tunge. Maks 10
@@ -108,7 +107,7 @@ stadig overvældende. Mor og Camilla står i nærheden og ønsker tillykke, tror
 jeg nok. De gør mig også opmærksom på, at Far er ved at komme i mål. Jeg kigger
 op, og ser ham løbe i mål i 01:30:03. Super godt. *Så er alt som det skal være.*
 
-![post: Far og Casper](/static/img/blogimages/hcamarathon2015/hca2015-post-far+casper-resized.jpg)  
+![post: Far og Casper](/img/arkiv/hc-andersen-marathon-2015/hca2015-post-far+casper-resized.jpg)  
 Far og Casper har gennemført ½ marathon.
 
 ## Konklusion
@@ -120,5 +119,5 @@ Far og Casper har gennemført ½ marathon.
  - ✓ Frø sået, next-up: maraton!
  - ✓ Billede med Fyens Stiftidendes maskot
 
-![Placeholder](/static/img/blogimages/hcamarathon2015/hca2015-tiger-camilla+casper-resized.jpg)  
+![Placeholder](/img/arkiv/hc-andersen-marathon-2015/hca2015-tiger-camilla+casper-resized.jpg)  
 Fyends Stiftidendes maskot får et billede med Camilla og Casper.

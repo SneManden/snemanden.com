@@ -42,7 +42,7 @@ a:visited:focus {
 
 article header {
     display: flex;
-    line-height: 1.5;
+    line-height: 1.15;
 }
 
 article header h1 {
@@ -55,10 +55,32 @@ article header h1 a {
     text-decoration: none;
 }
 
-article header .timestamp {
+article header .right {
+    width: 125px;
+    display: flex;
     margin-left: auto;   
+    align-items: end;
+    flex-direction: column;
 }
 
 article img {
     max-width: 100%;
+}
+
+article header .right .warning {
+    margin-top: 8px;
+}
+
+.warning {
+    color: #555;
+    border: 2px solid rgba(0,0,0,0.125);
+    padding: 2px 5px;
+    font-size: 12px;
+    background: #f2f200;
+    font-weight: 600;
+}
+
+.warning::before {
+    content: "⚠";
+    margin-right: 5px;
 }

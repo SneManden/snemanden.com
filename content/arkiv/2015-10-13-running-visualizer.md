@@ -20,7 +20,7 @@ If you are curious about the mechanics and/or maybe trying with your own data,
 you are welcome to adapt the [source](https://github.com/SneManden/runviz) to
 your needs.
 
-![Screenshot of runviz](/static/img/blogimages/runviz-screenshot.png)
+![Screenshot of runviz](/img/arkiv/running-visualizer/blogimages/runviz-screenshot.png)
 
 Each workout is represented by a small *runner* (a sprite) that starts at
 kilometre zero and runs the distance indicated by the workout, of course
