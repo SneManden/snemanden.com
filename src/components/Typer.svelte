@@ -5,11 +5,15 @@
     export let phrases = [
         "Fagales Fagaceae Quercus Robur 🌳.",
         "Java is to JavaScript what car is to Carpet.",
-        "Høns er liv & lykke.",
+        "Høns i haven og æg i maven.",
         "At høvle er at meditere.",
         "Lækker mad og godt selskab.",
-        "Løb er et rusmiddel.",
-        "Kærlighed er livets bindemiddel."
+        "Løb er mit rusmiddel.",
+        "Kærligheden er livets bindemiddel.",
+        "Børn er sandelig spændende væsener.",
+        "Om tid: ISO 8601 er den eneste vej frem.",
+        "Sammen kan vi skabe en bæredygtig fremtid.",
+        "Et samfund vokser sig stort når gamle mennesker planter træer hvis skygge de ved de aldrig kommer til at sidde i.",
     ].sort((_a, _b) => Math.random() < 0.5 ? 1 : -1);
 
     let index = 0;
