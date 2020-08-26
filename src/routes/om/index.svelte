@@ -1,3 +1,7 @@
+<script>
+    import Me from "../../components/Me.svelte";
+</script>
+
 <article>
     <header>
         <h1>Om</h1>
@@ -29,4 +33,30 @@
             <a rel="prefetch" href="/blog/min-families-klimaaftryk">Min families klimaaftryk</a>.
         </p>
     </section>
+    <section>
+        <h3>Arkiv</h3>
+        <p>
+            I august 2020 skrev jeg hjemmesiden om i <strong>Svelte</strong>.
+            Derfor kan du i <a rel="prefetch" href="/arkiv">arkivet</a> finde alle
+            de gamle indlæg fra bloggens fortid.
+        </p>
+        <p>
+            Nogle indlæg har dog været skrevet på baggrund af gammel software og
+            biblioteker som jeg har valgt ikke at tage medover. Der vil være en lille
+            advarsel om dette.
+            Det betyder bl.a. at den gamle billedviser er død, hvorfor indlæggene
+            kan se lidt rå ud. Beklager!
+            Det gælder også visse programmeringsressourcer, kildekodefiler,
+            små javascript-biblioteker (<strong>Rating-viewer</strong> fx).
+        </p>
+        <p>
+            Kontakt mig hvis der er et særligt indlæg du vil have genskabt,
+            så kan jeg måske finde tid til at fixe det. Ellers kan du måske
+            have held med at gå tilbage i tiden via 
+            <a href="https://web.archive.org/web/2019*/snemanden.com">Wayback Machine</a>.
+        </p>
+    </section>
+    <footer>
+        <Me/>
+    </footer>
 </article>
