@@ -85,3 +85,7 @@ article header .right .warning {
     content: "⚠";
     margin-right: 5px;
 }
+
+.green-text {
+    color: #358724;
+}
