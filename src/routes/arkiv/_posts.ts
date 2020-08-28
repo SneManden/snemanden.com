@@ -10,5 +10,6 @@ export const getArchivedPosts = () => {
         .readdirSync(dir)
         .filter(file => path.extname(file) === ".md")
         .map<IPost>(file => parseFile(dir, file))
+        .filter(p => !p.draft)
         .sort((a, b) => b.published.timestamp.localeCompare(a.published.timestamp));
 };

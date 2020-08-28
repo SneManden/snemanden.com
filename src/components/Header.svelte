@@ -1,8 +1,9 @@
 <script>
+
     let y: number;
 
     export let navHeight = 50;
-    export let headerHeight = 300;
+    export let headerHeight = 500;
 
     function updateHeight(y?: number): string {
         const pos = y !== undefined && Number.isSafeInteger(y)
@@ -11,26 +12,13 @@
         return `${pos}px`;
     }
 
-    let index = 0;
-    let images = [
-        "img/header/oak.jpg",
-        "img/header/run.jpg"
-    ].sort((_a, _b) => Math.random() < 0.5 ? 1 : -1);;
-    $: image = images[index % images.length];
-
-    function updateImage() {
-        index++;
-    }
-
-    setInterval(() => updateImage(), 15_000);
-
     $: hh = y === undefined ? navHeight : headerHeight;
     $: navPos = updateHeight(y);
 </script>
   
 <svelte:window bind:scrollY={y} />
 
-<header style="height:{hh}px;background-image:url({image})">
+<header style="height:{hh}px;">
     {#if y !== undefined}
         <slot/>
     {/if}
@@ -55,10 +43,6 @@
         padding-top: 10px;
         align-items: start;
         justify-content: start;
-        background-size: cover;
-        background-position: center;
-
-        /* transition: height 500ms ease-in-out; */
     }
     
     nav {

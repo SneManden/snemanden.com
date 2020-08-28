@@ -7,7 +7,7 @@
 
 	import Header from "../components/Header.svelte";
 	import Typer from "../components/Typer.svelte";
-	// import Chickens from "../components/Chickens.svelte";
+    import ImageCarousel from '../components/ImageCarousel.svelte';
 
 	// You may not want to use `segment`, but it is passed for the time being and will
 	// create a warning if not expected: https://github.com/sveltejs/sapper-template/issues/210
@@ -20,6 +20,19 @@
 
 	let path: string;
 	$: path = $page.path.slice(1);
+    
+	let imagePrefix = "/img/header/";
+	let images = [
+		"IMG_0142.jpg",
+		"IMG_0870_c.jpg",
+		"IMG_1580_c.jpg",
+		"IMG_2008_c.jpg",
+		"IMG_2076_c.jpg",
+		"IMG_2737_c.jpg",
+		"IMG_2742_c.jpg",
+		"IMG_2802_c.jpg",
+    ].map(img => `${imagePrefix}/${img}`)
+        .sort((_a, _b) => Math.random() < 0.5 ? 1 : -1);
 </script>
 
 <svelte:head>
@@ -29,7 +42,10 @@
 </svelte:head>
 
 <Header>
-	<div class="container">
+	<div class="images-wrapper">
+		<ImageCarousel {images}/>
+	</div>
+	<div class="container typer-wrapper">
 		<Typer/>
 	</div>
 </Header>
@@ -39,10 +55,6 @@
 		<slot />
 	</div>
 </main>
-
-<!-- <footer>
-	<Chickens />
-</footer> -->
 
 <style>
 	main {
@@ -68,6 +80,20 @@
 
 	:global(header) .container {
         background: rgba(0,0,0,0.75);
+	}
+
+	.images-wrapper {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		position: absolute;
+	}
+
+	.typer-wrapper {
+		position: relative;
+		z-index: 100;
 	}
 
 	/* footer {
