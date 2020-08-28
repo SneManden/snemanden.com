@@ -2,16 +2,15 @@
     import { fade } from 'svelte/transition';
     
     export let images: string[] = [];
+    export let updateFreq = 60_000;
 	
 	let index = 0;
 	
 	const next = () => {
 		index = (index + 1) % images.length;
     };
-
-    $: nextImage = images[(index + 1) % images.length];
     
-    setInterval(() => next(), 5_000);
+    setInterval(() => next(), updateFreq);
 </script>
 
 <div class="wrapper">

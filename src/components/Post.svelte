@@ -3,7 +3,11 @@
     import Me from "./Me.svelte";
 
     export let post: IPost;
+
+    let y = 444;
 </script>
+
+<svelte:window bind:scrollY={y} />
 
 <svelte:head>
     <title>{ post.title }</title>

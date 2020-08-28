@@ -43,7 +43,7 @@
 
 <Header>
 	<div class="images-wrapper">
-		<ImageCarousel {images}/>
+		<ImageCarousel {images} />
 	</div>
 	<div class="container typer-wrapper">
 		<Typer/>
