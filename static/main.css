@@ -89,3 +89,10 @@ article header .right .warning {
 .green-text {
     color: #358724;
 }
+
+article hr {
+    width: 50%;
+    border: none;
+    margin: 35px auto;
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
