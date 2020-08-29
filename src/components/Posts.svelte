@@ -11,7 +11,7 @@
         <article>
             <header>
                 <h1>
-                    <a rel="prefetch" sapper:noscroll href="{url}/{post.slug}">{ post.title }</a>
+                    <a rel="prefetch" href="{url}/{post.slug}">{ post.title }</a>
                 </h1>
                 <div class="right">
                     <div class="timestamp">{ post.published?.timestamp }</div>
@@ -27,7 +27,7 @@
             </section>
             <footer>
                 <div class="read-more">
-                    <a rel="prefetch" sapper:noscroll href="{url}/{post.slug}">Læs hele indlæget.</a>
+                    <a rel="prefetch" href="{url}/{post.slug}">Læs hele indlæget.</a>
                 </div>
             </footer>
         </article>

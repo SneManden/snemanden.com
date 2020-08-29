@@ -2,7 +2,7 @@
     import { fade } from 'svelte/transition';
     
     export let images: string[] = [];
-    export let updateFreq = 60_000;
+    export let updateFreq = 30_000; // ms
 	
 	let index = 0;
 	
