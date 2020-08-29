@@ -51,7 +51,7 @@
         border-radius: 50%;
         background: #fff;
         background-size: 100%;
-        background-image: url("/img/components/me/me.jpg");
+        background-image: url("/img/components/me/me2.jpg");
     }
 
     .link-btn {

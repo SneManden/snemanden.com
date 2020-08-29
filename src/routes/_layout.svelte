@@ -66,7 +66,6 @@
 		width: 100%;
 		margin: 0 auto;
 		padding: 20px;
-		min-width: 400px;
 		max-width: 800px;
 		box-sizing: border-box;
 	}
@@ -95,14 +94,6 @@
 		position: relative;
 		z-index: 100;
 	}
-
-	/* footer {
-		left: 0;
-		width: 100%;
-		bottom: 0;
-		overflow: hidden;
-		position: absolute;
-	} */
 
 	@media (max-width: 800px) {
 		main .container {

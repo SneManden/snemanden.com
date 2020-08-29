@@ -72,7 +72,6 @@
         margin: 0 auto;
         display: flex;
         padding: 0 20px;
-		min-width: 400px;
 		max-width: 800px;
         box-sizing: border-box;
 
