@@ -1,38 +1,12 @@
 {
-	"short_name": "Sapper + TypeScript + GraphQL",
-	"name": "Sapper with TypeScript and GraphQL project base",
-	"description": "A template that includes Svelte with Sapper, TypeScript preprocessing, and a GraphQL server through TypeGraphQL",
-	"categories": ["personalization", "productivity"],
-	"lang": "en-US",
+	"short_name": "SneManden.com",
+	"name": "SneManden.com",
+	"description": "SneManden.com is a personal blog of Casper kehlet Roi",
+	"categories": ["blog"],
+	"lang": "da-DK",
 	"dir": "ltr",
-	"icons": [
-		{
-			"src": "logo-192.png",
-			"sizes": "192x192",
-			"type": "image/png",
-			"purpose": "any maskable"
-		},
-		{
-			"src": "logo-512.png",
-			"sizes": "512x512",
-			"type": "image/png",
-			"purpose": "any maskable"
-		}
-	],
-	"start_url": "/",
+	"start_url": "/blog",
 	"display": "minimal-ui",
 	"background_color": "#ffffff",
-	"theme_color": "#0096D1",
-	"screenshots": [
-		{
-			"src": "screenshot-1.png",
-			"sizes": "1280x720",
-			"type": "image/png"
-		},
-		{
-			"src": "screenshot-2.png",
-			"sizes": "1280x720",
-			"type": "image/png"
-		}
-	]
+	"theme_color": "#358724"
 }
