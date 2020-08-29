@@ -63,11 +63,11 @@
 	}
 
 	.container {
-		width: 800px;
+		width: 100%;
 		margin: 0 auto;
 		padding: 20px;
-		min-width: 500px;
-		max-width: 100%;
+		min-width: 400px;
+		max-width: 800px;
 		box-sizing: border-box;
 	}
 

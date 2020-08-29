@@ -96,3 +96,17 @@ article hr {
     margin: 35px auto;
     border-bottom: 1px solid rgba(0,0,0,0.125);
 }
+
+@media (max-width: 500px) {
+    article header h1 {
+        font-size: 24px;
+    }
+
+    p, li {
+        font-size: 14px;
+    }
+
+    footer .note p {
+        font-size: 12px;
+    }
+}

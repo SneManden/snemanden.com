@@ -1,22 +1,25 @@
 <script>
-
     let y: number;
+    let width: number;
 
     export let navHeight = 50;
     export let headerHeight = 500;
+    export let smHeaderHeight = 250;
+
+    $: usehh = width !== undefined && width <= 500 ? smHeaderHeight : headerHeight;
 
     function updateHeight(y?: number): string {
         const pos = y !== undefined && Number.isSafeInteger(y)
-            ? Math.max(0, headerHeight - navHeight - y)
+            ? Math.max(0, usehh - navHeight - y)
             : 0;
         return `${pos}px`;
     }
 
-    $: hh = y === undefined ? navHeight : headerHeight;
+    $: hh = y === undefined ? navHeight : usehh;
     $: navPos = updateHeight(y);
 </script>
   
-<svelte:window bind:scrollY={y} />
+<svelte:window bind:scrollY={y} bind:outerWidth={width}/>
 
 <header style="height:{hh}px;">
     {#if y !== undefined}
@@ -65,12 +68,12 @@
     }
 
     nav .container {
-        width: 800px;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         padding: 0 20px;
-		min-width: 500px;
-		max-width: 100%;
+		min-width: 400px;
+		max-width: 800px;
         box-sizing: border-box;
 
         /* Apply gradient here since above container changes size depending on scroolbar visibility */
@@ -114,5 +117,14 @@
     nav h1 a {
         color: inherit;
         text-decoration: none;
+    }
+
+    @media (max-width: 500px) {
+        nav h1 {
+            font-size: 20px;
+        }
+        nav ul li a {
+            font-size: 14px;
+        }
     }
 </style>

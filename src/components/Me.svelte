@@ -74,4 +74,10 @@
         unicode-bidi:bidi-override;
         direction: rtl;
     }
+
+    @media (max-width: 500px) {
+        .wrapper {
+            width: 90%;
+        }
+    }
 </style>
