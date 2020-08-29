@@ -5,6 +5,21 @@ import { PostDate } from "../../models/post-models";
 
 type Metadata = { [key: string]: string };
 
+function link_renderer(href: string, title: string | null, text: string) {
+	let target_attr = "";
+	let title_attr = "";
+
+	if (href.startsWith("http")) {
+		target_attr = ` target="_blank"`;
+	}
+
+	if (title !== null) {
+		title_attr = ` title="${title}"`;
+	}
+
+	return `<a href="${href}"${target_attr}${title_attr} rel="noopener noreferrer">${text}</a>`;
+}
+
 const extractMetadata = (markdown: string): { metadata: Metadata, content: string } => {
     const match = /^---\s*([\s\S]+?)\s*---/.exec(markdown);
     const meta = match ? match[1] : null;
@@ -46,6 +61,7 @@ export function parseFile(directory: string, filename: string): IPost {
     const { metadata, content } = extractMetadata(markdown);
 
     const renderer = new marked.Renderer();
+    renderer.link = link_renderer;
 
     const html = marked(
         content.replace(/^\t+/gm, match => match.split("\t").join("  ")),

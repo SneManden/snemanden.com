@@ -6,7 +6,7 @@ description: Noter efter at have læst Andy Weir: The Martian
 
 Efter en længere læsepause, har jeg igen prioriteret jævnlig læsning.
 Denne gang gik det ud over en science fiction roman af Andy Weir: *The Martian*.
-Bogen er filmatiseret under samme titel, og nyder ganske stor popularitet (8.0/10 på [IMDB](www.imdb.com/title/tt3659388)).
+Bogen er filmatiseret under samme titel, og nyder ganske stor popularitet (8.0/10 på [IMDB](https://imdb.com/title/tt3659388)).
 
 Jeg sidder og kigger ud i det danske landskab, trygt og behageligt i en af DSBs togkupéer på strækningen Odense - Kolding.
 De sidste 14 dage har jeg tilbragt hver morgen og aften her i ca. 39 minutter ad gangen.
