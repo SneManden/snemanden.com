@@ -5,14 +5,15 @@ description: En lille gennemgang af hvad vi gør (og stadig ikke gør) for at ne
 
 Min og hele familiens mærkesag er **Klima & Miljø**.
 I takt med at vores forståelse for de problematikker og udfordringer
-vi som indbyggere på planeten Jorden står overfor, har vi forsøgt at
-tilpasse vores hverdag efter at mindske vores ressourceforbrug og værne
-om natur og nærmiljø.
+vi som indbyggere på planeten Jorden står overfor er steget, har vi forsøgt at
+tilpasse vores liv og hverdag efter at mindske vores ressourceforbrug og værne
+om natur og nærmiljø i de handlinger vi gør til daglig.
 
 Helt konkrete tiltag hertil er:
- *  Vi spiser på egen matrikkel en pescetarisk kost;
-    (dvs. uden kød foruden fisk) rent klimamæssigt er det en af de bedste
-    ting man som forbruger kan gøre for at nedsætte sit CO<sub>2</sub>-aftryk.
+ *  Vi spiser på egen matrikkel en *pescetarisk* kost;
+    (dvs. uden kød foruden fisk) rent klimamæssigt er det (at nedsætte sit kødforbrug)
+    en af de bedste ting man som forbruger kan gøre for at nedsætte sit
+    CO<sub>2</sub>-aftryk.
  *  Næsten alt vi køber er genbrug; tøj, sko, møbler, legetøj og baby/børne-udstyr.
     Og når vi køber nyt prøver vi så vidt muligt at gå efter varer af høj
     kvalitet og/eller der er produceret under forsvarlige og miljørigtige
@@ -45,3 +46,10 @@ leve mere bæredygtigt. Det er en proces jeg tror vil vare hele livet.
 Derudover har vi også drømme for fremtiden der rimer på bæredygtigt byggeri,
 som jeg håber vi kan indfri --- og indenfor en overskuelig årrække.
 Men dét tror jeg fortjener sit helt eget indlæg...
+
+Denne lille artikel kradser kun i overfladen på dette tema, og det er klart
+at der er mange flere nuancer og overvejelser bag de udsagn der er trykt
+her på siden. Og så berører vi jo kun her dét vi i familien selv gør og ikke
+gør for at tackle _klimakrisen_. Men tænker jeg at vi **som samfund** burde
+gøre anderledes? Hvad er det at vi burde kræve af vores politikkere og
+beslutningstagere i industrien? *Fortsættelse følger...*
