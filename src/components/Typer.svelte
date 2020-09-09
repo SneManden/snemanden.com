@@ -4,6 +4,7 @@
     
     export let phrases = [
         "Fagales Fagaceae Quercus Robur 🌳.",
+        "Rosales Ulmuceae Ulmus Glabra 🌳.",
         "Java is to JavaScript what car is to Carpet.",
         "Høns i haven og æg i maven.",
         "At høvle er at meditere.",
