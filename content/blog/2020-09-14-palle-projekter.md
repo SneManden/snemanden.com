@@ -1,5 +1,5 @@
 ---
-title: Palle projekter
+title: Palleprojekter
 description: Inspiration til små gør-det-selv projekter med palletræ.
 ---
 
