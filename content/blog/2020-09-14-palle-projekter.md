@@ -16,7 +16,7 @@ I sommers fik vi _nok_ af bunken af haveredskaber der lå som
 halvkogt spaghetti henne i det ene hjørne af vores garage/værksted.
 Så jeg besluttede mig for at lave et ophæng til de fleste af redskaberne
 af noget af det palletræ vi havde liggende.
-Se og bedøm selv her: [Haveredskabsopbevaring [KOMMER SNART]](/blog/haveredskabsopbevaring).
+Se og bedøm selv her: [Haveredskabsopbevaring](/blog/haveredskabsopbevaring).
 
 ## Tumlingens ægsamlerskammel
 Vores ældste søn, lurendrejeren Isak, elsker at hente æg ved hønsene,
