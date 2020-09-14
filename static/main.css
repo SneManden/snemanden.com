@@ -90,6 +90,10 @@ article header .right .warning {
     color: #358724;
 }
 
+.danger-text {
+    color: #C81E1E;
+}
+
 article hr {
     width: 50%;
     border: none;

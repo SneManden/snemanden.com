@@ -46,8 +46,8 @@ Men samlet og monteret blev den jo, og som det ses på billederne, så har den f
 mig og resten af familien da bestået de 5 kriterier for et successfuldt projekt:
 
 1. Projektet blev færdigt (og i rigtig god tid; projektet tog blot én enkelt dag),
-2. Redskaberne kan rent faktisk være der (den delmængde af redskaberne den var designet til i al fald ;) ),
+2. Redskaberne kan rent faktisk være der (den delmængde af redskaberne den var designet til i al fald),
 3. Redskaberne falder ikke ned når de er placeret i ophænget,
-4. Det ser _kønnere_ (om muligt blot marginalt) ud til sammenligning med redskabsspaghetti,
+4. Det _ser_ kønnere ud (om muligt blot marginalt) til sammenligning med redskabsspaghetti,
 5. Det _er_ rent faktisk nemmere at indfange det redskab man ønsker at anvende.
 
