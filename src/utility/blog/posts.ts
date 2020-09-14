@@ -80,7 +80,8 @@ export function parseFile(directory: string, filename: string): IPost {
         description: metadata.description ?? "",
         warning: metadata.warning ?? null,
         draft: !!metadata.draft,
-        published: new PostDate(pubdate)
+        published: new PostDate(pubdate),
+        hide: !!metadata.hide,
     };
 }
 

@@ -3,7 +3,7 @@ import { getPosts } from "./_posts";
 import { jsonHeaderWithCacheControl } from "../../utility/request-headers";
 import { asPostListing } from "../../utility/blog/posts";
 
-const posts = getPosts().map(asPostListing);
+const posts = getPosts(false).map(asPostListing);
 const contents = JSON.stringify(posts);
 
 export const get = async (req: ExpressRequest, res: ExpressResponse): Promise<void> => {

@@ -6,7 +6,7 @@ type PostDict = {
     [slug: string]: string;
 };
 
-const dict: PostDict = getPosts().reduce<PostDict>((d, post) => {
+const dict: PostDict = getPosts(true).reduce<PostDict>((d, post) => {
     d[post.slug] = JSON.stringify(post);
     return d;
 }, {});

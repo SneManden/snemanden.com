@@ -11,6 +11,7 @@ export interface IPost {
 
     draft: boolean;
     warning: string | null;
+    hide: boolean;
 }
 
 export type PostListing = Pick<IPost, "title" | "excerpt" | "slug" | "published" | "warning">;
