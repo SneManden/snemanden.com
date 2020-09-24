@@ -53,9 +53,9 @@ Se og bedøm selv her: [Haveredskabsopbevaring](/blog/haveredskabsopbevaring).
 Vores ældste søn, lurendrejeren Isak, elsker at hente æg ved hønsene,
 og gå forsigtigt ind med dem til æggebakken. Men hans Far har monteret
 æggekassen uden for rækkevidde (delvist bevidst!), så dertil måtte jo
-gøres noget (ikke mindst for vores rygges skyld): en skammel var oplagt
+gøres noget (ikke mindst for vore rygges skyld): en skammel var oplagt
 at få på banen.
-Tjek den ud her: [Tumlingens ægsamlerskammel [KOMMER SNART]](/blog/tumlingens-ægsamlerskammel)
+Tjek den ud her: [Tumlingens ægsamlerskammel](/blog/tumlingens-ægsamlerskammel)
 
 ## Hønsehuset
 Men hvad kom først: høn(sehuset) eller æg(samlerskamlen)? Ingen brug for
