@@ -12,7 +12,12 @@ export interface IPost {
     draft: boolean;
     warning: string | null;
     hide: boolean;
+
+    gallery: string[] | null;
+    galleryPosition?: GalleryPosition;
 }
+
+export type GalleryPosition = "top" | "bottom";
 
 export type PostListing = Pick<IPost, "title" | "excerpt" | "slug" | "published" | "warning">;
 

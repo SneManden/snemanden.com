@@ -1,9 +1,9 @@
 import fs from "fs";
 import marked from "marked";
-import type { IPost, PostListing } from "../../models/post-models";
+import type { GalleryPosition, IPost, PostListing } from "../../models/post-models";
 import { PostDate } from "../../models/post-models";
 
-type Metadata = { [key: string]: string };
+type Metadata = { [key: string]: string | undefined };
 
 function link_renderer(href: string, title: string | null, text: string) {
 	let target_attr = "";
@@ -79,10 +79,23 @@ export function parseFile(directory: string, filename: string): IPost {
         author: metadata.author ?? "Casper Kehlet Roi",
         description: metadata.description ?? "",
         warning: metadata.warning ?? null,
-        draft: !!metadata.draft,
+        draft: Boolean(metadata.draft),
         published: new PostDate(pubdate),
-        hide: !!metadata.hide,
+        hide: Boolean(metadata.hide),
+        gallery: metadata.gallery?.split(",").map(img => img.trim()) ?? null,
+        galleryPosition: parseGalleryPosition(metadata.galleryPosition),
     };
+}
+
+function parseGalleryPosition(position?: string): GalleryPosition {
+    const posLower = position?.toLowerCase().trim();
+    switch (posLower) {
+        case "top":
+        case "bottom":
+            return posLower;
+        default:
+            return "top";
+    }
 }
 
 export function asPostListing(post: IPost): PostListing {
