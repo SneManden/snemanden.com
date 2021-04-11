@@ -26,9 +26,9 @@
         </div>
     </header>
 
-    {#if post.gallery && post.galleryPosition === "top" }
+    {#if post.gallery && post.gallery_position === "top" }
     <section class="post-gallery">
-        <ImageViewer images={post.gallery} />
+        <ImageViewer gallery={post.gallery} />
     </section>
     {/if}
 
@@ -36,9 +36,9 @@
         { @html post.html }
     </section>
     
-    {#if post.gallery && post.galleryPosition === "bottom" }
+    {#if post.gallery && post.gallery_position === "bottom" }
     <section class="post-gallery">
-        <ImageViewer images={post.gallery} />
+        <ImageViewer gallery={post.gallery} />
     </section>
     {/if}
     
@@ -48,4 +48,7 @@
 </article>
 
 <style>
+.post-gallery {
+    margin: 25px 0;
+}
 </style>

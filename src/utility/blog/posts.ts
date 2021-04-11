@@ -1,6 +1,6 @@
 import fs from "fs";
 import marked from "marked";
-import type { GalleryPosition, IPost, PostListing } from "../../models/post-models";
+import type { GalleryPosition, IGallery, IPost, PostListing } from "../../models/post-models";
 import { PostDate } from "../../models/post-models";
 
 type Metadata = { [key: string]: string | undefined };
@@ -82,8 +82,9 @@ export function parseFile(directory: string, filename: string): IPost {
         draft: Boolean(metadata.draft),
         published: new PostDate(pubdate),
         hide: Boolean(metadata.hide),
-        gallery: metadata.gallery?.split(",").map(img => img.trim()) ?? null,
-        galleryPosition: parseGalleryPosition(metadata.galleryPosition),
+        gallery_name: metadata.gallery_name ?? null,
+        gallery_position: parseGalleryPosition(metadata.gallery_position),
+        gallery: null,
     };
 }
 
@@ -106,4 +107,16 @@ export function asPostListing(post: IPost): PostListing {
         published: post.published,
         warning: post.warning
     };
+}
+
+export function parseGallery(directory: string, filename: string): IGallery | null {
+    const match = /^(.+)\.json$/.exec(filename);
+    if (!match) {
+        throw new Error(`Invalid filename "${filename}"`);
+    }
+
+    const contents = fs.readFileSync(`${directory}/${filename}`, "utf-8");
+    const gallery = JSON.parse(contents) as IGallery;
+
+    return gallery ?? null;
 }

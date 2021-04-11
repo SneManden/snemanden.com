@@ -13,8 +13,9 @@ export interface IPost {
     warning: string | null;
     hide: boolean;
 
-    gallery: string[] | null;
-    galleryPosition?: GalleryPosition;
+    gallery_name: string | null;
+    gallery_position: GalleryPosition;
+    gallery: IGallery | null;
 }
 
 export type GalleryPosition = "top" | "bottom";
@@ -54,4 +55,15 @@ export class PostDate implements IPostDate {
     private pad(num: number): string {
         return num < 10 ? `0${num}` : `${num}`;
     }
+}
+
+export interface IGallery {
+    title?: string;
+    description?: string;
+    images: IGalleryImage[];
+}
+
+export interface IGalleryImage {
+    image: string;
+    text?: string;
 }

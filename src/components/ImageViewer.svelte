@@ -1,6 +1,8 @@
 <script>
   import { fade } from 'svelte/transition';
-  export let images: string[] = [];
+  import type { IGallery } from '../models/post-models';
+
+  export let gallery: IGallery;
   export let updateFreq = 5_000; // ms
   export let wrap = false;
 
@@ -10,19 +12,19 @@
   $: height = width/16 * 9;
 
   let index = 0;
-  let playing = true;
+  let playing = false;
 
   const next = (wrapForce = false, keepPlaying = false) => {
     playing = keepPlaying;
     index = wrap || wrapForce
-      ? (index + 1) % images.length
-      : Math.min(index + 1, images.length - 1);
+      ? (index + 1) % gallery.images.length
+      : Math.min(index + 1, gallery.images.length - 1);
   };
   const onNext = () => next();
   const onPrev = () => {
     playing = false;
     index = wrap
-      ? (index === 0 ? images.length - 1 : index - 1)
+      ? (index === 0 ? gallery.images.length - 1 : index - 1)
       : Math.max(0, index - 1);
   }
   const playPause = () => playing = !playing;
@@ -45,9 +47,10 @@
 </script>
 
 <div class="image-viewer-wrapper" style="height:{height}px" bind:clientWidth={width}>
-  {#each [images[index]] as src (index)}
-    <div class="current-image" style="background-image:url({src})"
+  {#each [gallery.images[index]] as src (index)}
+    <div class="current-image" style="background-image:url({src.image})"
          transition:fade={{ duration: 300 }}></div>
+    <p>{src.text}</p>
   {/each}
 </div>
 
@@ -66,8 +69,8 @@
     ▶
     {/if}
   </button>
-  <div>{index + 1} / {images?.length}</div>
-  <button on:click={onNext} disabled={index === images.length - 1}>Next</button>
+  <div>{index + 1} / {gallery.images?.length}</div>
+  <button on:click={onNext} disabled={index === gallery.images.length - 1}>Next</button>
 </div>
 
 <style>
@@ -81,6 +84,16 @@
     position: absolute;
     background-size: cover;
     background-position: center;
+  }
+  .image-viewer-wrapper p {
+    width: 100%;
+    color: #fff;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
   }
   .next-image-progress-wrapper {
     width: 100%;

@@ -1,7 +1,8 @@
 ---
-title: Title Here
+title: Projekt Hønsehus
 description: Description here
-gallery: /img/header/IMG_1580_c.jpg, /img/header/IMG_2742_c.jpg
+gallery_name: 2021-04-11-hønsehus.json
+gallery_position: bottom
 draft: true
 ---
 

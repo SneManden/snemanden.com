@@ -18,4 +18,4 @@
     export let post: IPost;
 </script>
 
-<Post post={post} />
+<Post {post} />
