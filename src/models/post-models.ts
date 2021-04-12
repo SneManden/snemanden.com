@@ -60,6 +60,7 @@ export class PostDate implements IPostDate {
 export interface IGallery {
     title?: string;
     description?: string;
+    image_ratio?: string;
     images: IGalleryImage[];
 }
 
