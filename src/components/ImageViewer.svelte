@@ -3,7 +3,6 @@
   import type { IGallery } from '../models/post-models';
 
   export let gallery: IGallery;
-  export let updateFreq = 5_000; // ms
   export let wrap = false;
 
   const parseImageRatio = (imgRatio?: string): (h: number) => number => {
@@ -19,39 +18,32 @@
   $: height = setHeight(width);
 
   let index = 0;
-  let playing = false;
 
-  const next = (wrapForce = false, keepPlaying = false) => {
-    playing = keepPlaying;
+  const next = (wrapForce = false) => {
     index = wrap || wrapForce
       ? (index + 1) % gallery.images.length
       : Math.min(index + 1, gallery.images.length - 1);
   };
   const onNext = () => next();
   const onPrev = () => {
-    playing = false;
     index = wrap
       ? (index === 0 ? gallery.images.length - 1 : index - 1)
       : Math.max(0, index - 1);
   }
-  const playPause = () => playing = !playing;
 
-  // const now = () => new Date();
-  // const getNextUpdate = () => new Date(now().getTime() + updateFreq);
-
-  // let nextUpdate = getNextUpdate();
-
-  setInterval(() => {
-    // nextUpdate = getNextUpdate();
-    playing && next(true, true);
-  }, updateFreq);
-  
-  // let progress = 0;
-
-  // setInterval(() => {
-  //   progress = (updateFreq - (nextUpdate.getTime() - now().getTime())) / updateFreq * 100;
-  // }, 250);  
+	const handleKeydown = (event: KeyboardEvent): void => {
+    switch (event.key) {
+      case "ArrowLeft":
+        onPrev();
+        break;
+      case "ArrowRight":
+        onNext();
+        break;
+    }
+	}
 </script>
+
+<svelte:window on:keydown={handleKeydown}/>
 
 <div class="wrapper">
   <div class="image-viewer-wrapper" style="height:{height}px" bind:clientWidth={width}>
@@ -62,24 +54,13 @@
     {/each}
   </div>
   
-  <!-- {#if playing}
-  <div class="next-image-progress-wrapper">
-    <div class="progress" style="width:{progress}%"></div>
-  </div>
-  {/if} -->
-  
-  <div class="controls">
+  <div class="btn-wrapper prev-wrapper">
     <button class="prev" on:click={onPrev} disabled={index === 0}>
       ☜
     </button>
-    <button class="play-pause" on:click={playPause}>
-      {#if playing}
-      ⏸
-      {:else}
-      ▶
-      {/if}
-    </button>
+  </div>
     <div class="image-index">{index + 1} / {gallery.images?.length}</div>
+  <div class="btn-wrapper next-wrapper">
     <button class="next" on:click={onNext} disabled={index === gallery.images.length - 1}>
       ☞
     </button>
@@ -114,54 +95,48 @@
     box-sizing: border-box;
     background: rgba(0,0,0,0.5);
   }
-  /* .next-image-progress-wrapper {
-    width: 100%;
-    height: 5px;
-    background: #aaa;
-  }
-  .next-image-progress-wrapper .progress {
-    height: 100%;
-    background: #ddd;
-    transition: width 250ms linear;
-  } */
-  .controls .next,
-  .controls .prev {
+  .btn-wrapper {
     top: 50%;
+    padding: 10px 15px;
+    position: absolute;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    opacity: 0.1;
+    transition: opacity 350ms;
+  }
+  .btn-wrapper:hover {
+    opacity: 1;
+  }
+  .btn-wrapper button {
     color: #ddd;
     border: none;
-    padding: 10px;
-    position: absolute;
     font-size: 42px;
-    transform: translateY(-50%);
     background: none;
     font-weight: 500;
-    background: rgba(0,0,0,0.5);
+
+    margin: -10px -15px;
+    padding: 10px 15px;
   }
-  .controls .next:not(:disabled):hover,
-  .controls .prev:not(:disabled):hover {
+  .btn-wrapper button:not(:disabled):hover {
     color: #fff;
     cursor: pointer;
     font-size: 44px;
     font-weight: 700;
   }
-  .controls .next:disabled,
-  .controls .prev:disabled {
+  .btn-wrapper button:disabled {
     color: #aaa;
   }
-  .controls .next {
+  .btn-wrapper.next-wrapper {
     right: 0;
   }
-  .controls .prev {
+  .btn-wrapper.prev-wrapper {
     left: 0;
   }
-  .controls .image-index {
+  .image-index {
     color: #fff;
     right: 0;
     bottom: 0;
     padding: 10px;
     position: absolute;
-  }
-  .controls .play-pause {
-    display: none;
   }
 </style>
