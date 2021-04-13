@@ -59,7 +59,7 @@
       ☜
     </button>
   </div>
-    <div class="image-index">{index + 1} / {gallery.images?.length}</div>
+    <div class="image-index">{index + 1} / {gallery.images.length}</div>
   <div class="btn-wrapper next-wrapper">
     <button class="next" on:click={onNext} disabled={index === gallery.images.length - 1}>
       ☞
