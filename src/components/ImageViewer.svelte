@@ -90,7 +90,7 @@
     color: #fff;
     bottom: 0;
     margin: 0;
-    padding: 10px 40px 10px 10px;
+    padding: 10px 60px 10px 10px;
     position: absolute;
     box-sizing: border-box;
     background: rgba(0,0,0,0.5);
