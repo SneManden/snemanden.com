@@ -35,12 +35,6 @@
     .sort((_a, _b) => Math.random() < 0.5 ? 1 : -1);
 </script>
 
-<svelte:head>
-	<title>
-		{path ? path.charAt(0).toUpperCase() + path.slice(1) : "Index"}
-	</title>
-</svelte:head>
-
 <Header>
 	<div class="images-wrapper">
 		<ImageCarousel {images} />
