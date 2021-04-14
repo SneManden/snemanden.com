@@ -1,6 +1,8 @@
 <script>
+  import { onMount } from 'svelte';
   import { fade } from 'svelte/transition';
   import type { IGallery } from '../models/post-models';
+  import { Swipe } from '../utility/swipe';
 
   export let gallery: IGallery;
   export let wrap = false;
@@ -42,15 +44,23 @@
     }
 	}
 
-  // const handleMove = (event: DragEvent): void => {
-  //   console.log("handleMove(event:", event, ")");
-  // }
+  let imageWrapper: HTMLElement;
+  let swipe: Swipe;
+
+  onMount(() => {
+    console.log("imageWrapper:", imageWrapper);
+    swipe = new Swipe(imageWrapper, {
+      onLeft: () => onPrev(),
+      onRight: () => onNext(),
+    });
+    swipe.run();
+  });
 </script>
 
 <svelte:window on:keydown={handleKeydown} />
 
 <div class="wrapper">
-  <div class="image-viewer-wrapper" style="height:{height}px" bind:clientWidth={width}>
+  <div class="image-viewer-wrapper" style="height:{height}px" bind:clientWidth={width} bind:this={imageWrapper}>
     {#each [gallery.images[index]] as src (index)}
     <div class="current-image" style="background-image:url({src.image})"
     transition:fade={{ duration: 100 }}></div>
