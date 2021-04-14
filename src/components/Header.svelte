@@ -80,7 +80,7 @@
         background: -moz-linear-gradient(45deg,  #59c14b 0%, #59c14b 50%, #358724 50%, #358724 100%);
         background: -webkit-linear-gradient(45deg,  #59c14b 0%,#59c14b 50%,#358724 50%,#358724 100%);
         background: linear-gradient(45deg,  #59c14b 0%,#59c14b 50%,#358724 50%,#358724 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59c14b', endColorstr='#358724',GradientType=1 );
+        /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59c14b', endColorstr='#358724',GradientType=1 ); */
     }
 
     nav ul {

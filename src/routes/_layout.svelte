@@ -3,7 +3,6 @@
 </script>
 
 <script>
-	import { stores } from "@sapper/app";
 	import Header from "../components/Header.svelte";
 	import Typer from "../components/Typer.svelte";
   import ImageCarousel from '../components/ImageCarousel.svelte';
@@ -15,11 +14,6 @@
 	// Silence unused export property warning
 	if (segment) {};
 
-	const { page } = stores();
-
-	let path: string;
-	$: path = $page.path.slice(1);
-    
 	let imagePrefix = "/img/header/";
 	let images = [
 		"IMG_0142.jpg",

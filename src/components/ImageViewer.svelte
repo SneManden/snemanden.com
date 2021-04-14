@@ -7,7 +7,7 @@
 
   const parseImageRatio = (imgRatio?: string): (h: number) => number => {
     const match = /^(\d+):(\d+)$/.exec(imgRatio ?? "");
-    const [_, w, h] = match ?? [];
+    const [w, h] = match?.slice(1) ?? [];
     return (width: number) => width / parseInt(w ?? 16) * parseInt(h ?? 9);
   };
   const setHeight = parseImageRatio(gallery.image_ratio);
@@ -41,9 +41,13 @@
         break;
     }
 	}
+
+  // const handleMove = (event: DragEvent): void => {
+  //   console.log("handleMove(event:", event, ")");
+  // }
 </script>
 
-<svelte:window on:keydown={handleKeydown}/>
+<svelte:window on:keydown={handleKeydown} />
 
 <div class="wrapper">
   <div class="image-viewer-wrapper" style="height:{height}px" bind:clientWidth={width}>
