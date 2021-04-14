@@ -63,7 +63,7 @@ spoileralert; dét må du selv gætte dig til. Men én ting er sikkert; du,
 min kære læser, skal forkæles! Her kommer beretningen som et visuelt
 vægtapet supleret med lidt opklarende ord i sætninger, om opførslen af
 forårets monument: vore skønne faverolles' permanente bolig.
-Dén kan du finde lige her: [Hønsehuset [KOMMER SNART]](/blog/hønsehuset).
+Dén kan du finde lige her: [Projekt Hønsehus](/blog/projekt-hønsehus).
 
 ## Conclusio
 Paller ér spændende at arbejde med; primært fordi de er meget prisvenlige;
